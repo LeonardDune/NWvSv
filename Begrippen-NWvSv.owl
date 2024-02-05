@@ -1,0 +1,2885 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/user/ontologies/2024/0/untitled-ontology-34#"
+     xml:base="http://www.semanticweb.org/user/ontologies/2024/0/untitled-ontology-34"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:shacl="http://www.w3.org/ns/shacl#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/user/ontologies/2024/0/Begrippen-NWvSv"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/source -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/source"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#broader -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#broader"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#inScheme -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#topConceptOf -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#topConceptOf"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#and -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#and"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#class -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#class"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#datatype -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#datatype"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#description -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#description"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#disjoint -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#disjoint"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#group -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#group"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#maxCount -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#maxCount"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#message -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#message"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#minCount -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#minCount"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#name -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#name"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#node -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#node"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#nodeKind -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#nodeKind"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#or -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#or"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#order -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#order"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#path -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#path"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#property -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#property"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#scopeClass -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#scopeClass"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#severity -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#severity"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#targetClass -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#targetClass"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#targetObjectsOf -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#targetObjectsOf"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#uniqueLang -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/shacl#uniqueLang"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://bp4mc2.org/def/skos-lex#refersTo -->
+
+    <owl:ObjectProperty rdf:about="http://bp4mc2.org/def/skos-lex#refersTo">
+        <rdfs:domain rdf:resource="http://bp4mc2.org/def/skos-lex#Norm"/>
+        <rdfs:range rdf:resource="http://bp4mc2.org/def/skos-lex#Act"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://bp4mc2.org/def/skos-lex#Act -->
+
+    <owl:Class rdf:about="http://bp4mc2.org/def/skos-lex#Act">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:comment xml:lang="nl">De klasse van handelingen. Een handeling is een juridische constructie die een verzamelingen activiteiten voorstelt, uitgevoerd door een Actor en op een Object.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The class of Acts. An act is a legal construct representing a set of activities, performed by an Actor and with respect to some Object.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://bp4mc2.org/def/skos-lex"/>
+        <rdfs:label xml:lang="en">Act</rdfs:label>
+        <rdfs:label xml:lang="nl">Handeling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://bp4mc2.org/def/skos-lex#Actor -->
+
+    <owl:Class rdf:about="http://bp4mc2.org/def/skos-lex#Actor">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:comment xml:lang="nl">De klasse van actoren. Een actor is een persoon (individu, groep of organisatie) die een handeling uitvoert</rdfs:comment>
+        <rdfs:comment xml:lang="en">The class of Actors. An actor is some person (individual, group or organisation) that performs some Act</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://bp4mc2.org/def/skos-lex"/>
+        <rdfs:label xml:lang="en">Actor</rdfs:label>
+        <rdfs:label xml:lang="nl">Actor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://bp4mc2.org/def/skos-lex#Agent -->
+
+    <owl:Class rdf:about="http://bp4mc2.org/def/skos-lex#Agent">
+        <rdfs:subClassOf rdf:resource="http://bp4mc2.org/def/skos-lex#Actor"/>
+        <rdfs:comment xml:lang="nl">De klasse van agenten. Een agent is een persoon (individu, groep of organisatie) die bij een handeling betrokken is, zonder de handeling feitelijk uit te voeren.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The class of Agent. An agent is some person (individual, group or organisation) involved in some act, without actually performing the act.</rdfs:comment>
+        <rdfs:label xml:lang="en">Agent</rdfs:label>
+        <rdfs:label xml:lang="nl">Agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://bp4mc2.org/def/skos-lex#Norm -->
+
+    <owl:Class rdf:about="http://bp4mc2.org/def/skos-lex#Norm">
+        <rdfs:comment xml:lang="en">The class of norms. A norm effects an Act. It implies what &apos;ought&apos; or &apos;should not&apos; be done with regard to an Act. A norm represents the set of rules that apply to an Act.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">The klasse van normen. Een norm heeft effect op een handeling. De norm stelt wat &apos;zou moeten&apos; of juist &apos;niet zo moeten&apos; met betrekking tot de handeling. Een norm representeert de regels die gelden voor de handeling.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://bp4mc2.org/def/skos-lex"/>
+        <rdfs:label xml:lang="en">Norm</rdfs:label>
+        <rdfs:label xml:lang="nl">Norm</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Theory_of_Legal_Norms"/>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Norm_(philosophy)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://bp4mc2.org/def/skos-lex#Object -->
+
+    <owl:Class rdf:about="http://bp4mc2.org/def/skos-lex#Object">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:comment xml:lang="nl">De klasse van objecten. Een object is een ding (niet een actor) dat ontstaat, wijzigt of gebruikt wordt gedurende een handeling</rdfs:comment>
+        <rdfs:comment xml:lang="en">The class of objects. An object is some thing (not an actor) that is created, used or changed during some Act</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://bp4mc2.org/def/skos-lex"/>
+        <rdfs:label xml:lang="en">Object</rdfs:label>
+        <rdfs:label xml:lang="nl">Object</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://bp4mc2.org/def/skos-lex#Record -->
+
+    <owl:Class rdf:about="http://bp4mc2.org/def/skos-lex#Record">
+        <rdfs:subClassOf rdf:resource="http://bp4mc2.org/def/skos-lex#Object"/>
+        <rdfs:comment xml:lang="en">The class of records. A record is a some thing (not an actor) that is created to capture the execution of an act</rdfs:comment>
+        <rdfs:comment xml:lang="nl">The klasse van opnamen. Een opname is een ding (niet een actor) dat gemaakt wordt om de uitvoering van een handeling vast te leggen</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://bp4mc2.org/def/skos-lex"/>
+        <rdfs:label xml:lang="nl">Opname</rdfs:label>
+        <rdfs:label xml:lang="en">Record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Concept -->
+
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#ConceptScheme -->
+
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#NodeShape -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/shacl#NodeShape"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#Nodeshape -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/shacl#Nodeshape"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#PropertyGroup -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/shacl#PropertyGroup"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#PropertyShape -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/shacl#PropertyShape"/>
+    
+
+
+    <!-- http://www.w3.org/ns/shacl#Shape -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/shacl#Shape"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://bp4mc2.org/def/skos-lex/Act -->
+
+    <owl:NamedIndividual rdf:about="http://bp4mc2.org/def/skos-lex/Act">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <shacl:name>skoslex:Act</shacl:name>
+        <shacl:property rdf:resource="http://bp4mc2.org/def/skos-lex/Act-actor"/>
+        <shacl:property rdf:resource="http://bp4mc2.org/def/skos-lex/Act-agent"/>
+        <shacl:property rdf:resource="http://bp4mc2.org/def/skos-lex/Act-object"/>
+        <shacl:property rdf:resource="http://bp4mc2.org/def/skos-lex/Act-record"/>
+        <shacl:targetClass rdf:resource="http://bp4mc2.org/def/skos-lex#Act"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://bp4mc2.org/def/skos-lex/Act-actor -->
+
+    <owl:NamedIndividual rdf:about="http://bp4mc2.org/def/skos-lex/Act-actor">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:class rdf:resource="http://bp4mc2.org/def/skos-lex#Actor"/>
+        <shacl:name>skoslex:actor</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:path rdf:resource="http://bp4mc2.org/def/skos-lex#actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://bp4mc2.org/def/skos-lex/Act-agent -->
+
+    <owl:NamedIndividual rdf:about="http://bp4mc2.org/def/skos-lex/Act-agent">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:class rdf:resource="http://bp4mc2.org/def/skos-lex#Agent"/>
+        <shacl:name>skoslex:agent</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:path rdf:resource="http://bp4mc2.org/def/skos-lex#agent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://bp4mc2.org/def/skos-lex/Act-object -->
+
+    <owl:NamedIndividual rdf:about="http://bp4mc2.org/def/skos-lex/Act-object">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:class rdf:resource="http://bp4mc2.org/def/skos-lex#Object"/>
+        <shacl:name>skoslex:object</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:path rdf:resource="http://bp4mc2.org/def/skos-lex#object"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://bp4mc2.org/def/skos-lex/Act-record -->
+
+    <owl:NamedIndividual rdf:about="http://bp4mc2.org/def/skos-lex/Act-record">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:class rdf:resource="http://bp4mc2.org/def/skos-lex#Record"/>
+        <shacl:name>skoslex:record</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:path rdf:resource="http://bp4mc2.org/def/skos-lex#record"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://bp4mc2.org/def/skos-lex/Actor -->
+
+    <owl:NamedIndividual rdf:about="http://bp4mc2.org/def/skos-lex/Actor">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <shacl:name>skoslex:Actor</shacl:name>
+        <shacl:targetClass rdf:resource="http://bp4mc2.org/def/skos-lex#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://bp4mc2.org/def/skos-lex/Agent -->
+
+    <owl:NamedIndividual rdf:about="http://bp4mc2.org/def/skos-lex/Agent">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <shacl:name>skoslex:Agent</shacl:name>
+        <shacl:targetClass rdf:resource="http://bp4mc2.org/def/skos-lex#Agent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://bp4mc2.org/def/skos-lex/Concept -->
+
+    <owl:NamedIndividual rdf:about="http://bp4mc2.org/def/skos-lex/Concept">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#Shape"/>
+        <shacl:name>skos:Concept</shacl:name>
+        <shacl:property rdf:resource="http://bp4mc2.org/def/skos-lex/Concept-source"/>
+        <shacl:targetClass rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://bp4mc2.org/def/skos-lex/Concept-source -->
+
+    <owl:NamedIndividual rdf:about="http://bp4mc2.org/def/skos-lex/Concept-source">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:name>dcterms:source</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:path rdf:resource="http://purl.org/dc/terms/source"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://bp4mc2.org/def/skos-lex/Norm -->
+
+    <owl:NamedIndividual rdf:about="http://bp4mc2.org/def/skos-lex/Norm">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <shacl:name>skoslex:Norm</shacl:name>
+        <shacl:property rdf:resource="http://bp4mc2.org/def/skos-lex/Norm-affects"/>
+        <shacl:property rdf:resource="http://bp4mc2.org/def/skos-lex/Norm-refersTo"/>
+        <shacl:scopeClass rdf:resource="http://bp4mc2.org/def/skos-lex#Norm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://bp4mc2.org/def/skos-lex/Norm-affects -->
+
+    <owl:NamedIndividual rdf:about="http://bp4mc2.org/def/skos-lex/Norm-affects">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:class rdf:resource="http://bp4mc2.org/def/skos-lex#Act"/>
+        <shacl:name>skoslex:affects</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:path rdf:resource="http://bp4mc2.org/def/skos-lex#affects"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://bp4mc2.org/def/skos-lex/Norm-refersTo -->
+
+    <owl:NamedIndividual rdf:about="http://bp4mc2.org/def/skos-lex/Norm-refersTo">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:class rdf:resource="http://bp4mc2.org/def/skos-lex#Act"/>
+        <shacl:name>skoslex:refersTo</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:path rdf:resource="http://bp4mc2.org/def/skos-lex#refersTo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://bp4mc2.org/def/skos-lex/Object -->
+
+    <owl:NamedIndividual rdf:about="http://bp4mc2.org/def/skos-lex/Object">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <shacl:name>skoslex:Object</shacl:name>
+        <shacl:targetClass rdf:resource="http://bp4mc2.org/def/skos-lex#Object"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://bp4mc2.org/def/skos-lex/Record -->
+
+    <owl:NamedIndividual rdf:about="http://bp4mc2.org/def/skos-lex/Record">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <shacl:name>skoslex:Record</shacl:name>
+        <shacl:property rdf:resource="http://bp4mc2.org/def/skos-lex/Record-isAbout"/>
+        <shacl:targetClass rdf:resource="http://bp4mc2.org/def/skos-lex#Record"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://bp4mc2.org/def/skos-lex/Record-isAbout -->
+
+    <owl:NamedIndividual rdf:about="http://bp4mc2.org/def/skos-lex/Record-isAbout">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:class rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <shacl:name>skoslex:isAbout</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:path rdf:resource="http://bp4mc2.org/def/skos-lex#isAbout"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#Collection -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#Collection">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:comment xml:lang="en">A meaningful collection of concepts.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een verzameling concepten met een samenhangende betekenis.</rdfs:comment>
+        <rdfs:label xml:lang="nl">Collectie</rdfs:label>
+        <rdfs:label xml:lang="en">Collection</rdfs:label>
+        <shacl:property rdf:resource="http://nlbegrip.nl/def/skosapnl#Collection-comment"/>
+        <shacl:property rdf:resource="http://nlbegrip.nl/def/skosapnl#Collection-label"/>
+        <shacl:property rdf:resource="http://nlbegrip.nl/def/skosapnl#Collection-member"/>
+        <shacl:targetClass rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#Collection-comment -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#Collection-comment">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+        <shacl:group rdf:resource="http://nlbegrip.nl/def/skosapnl#LabelsAndDescriptionPropertyGroup"/>
+        <shacl:name xml:lang="en">comment</shacl:name>
+        <shacl:name xml:lang="nl">uitleg</shacl:name>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#Collection-label -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#Collection-label">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">label</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+        <shacl:description xml:lang="nl">Een label voor een object is een voor mensen leesbare naam ter aanduiding van een object.</shacl:description>
+        <shacl:group rdf:resource="http://nlbegrip.nl/def/skosapnl#LabelsAndDescriptionPropertyGroup"/>
+        <shacl:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:minCount>
+        <shacl:name xml:lang="nl">label</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#Collection-member -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#Collection-member">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">bevat</rdfs:label>
+        <shacl:description xml:lang="nl">Relateert een collectie aan een begrip dat onderdeel is van deze collectie.</shacl:description>
+        <shacl:description xml:lang="en">Relates a collection to one of its members.</shacl:description>
+        <shacl:name xml:lang="nl">bevat</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:or>
+            <rdf:Description/>
+        </shacl:or>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#member"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#Concept -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#Concept">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:comment xml:lang="en">An idea or notion; a unit of thought.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een abstract idee of notie.</rdfs:comment>
+        <rdfs:label xml:lang="nl">Begrip</rdfs:label>
+        <shacl:property rdf:resource="http://nlbegrip.nl/def/skosapnl#Concept-altLabel"/>
+        <shacl:property rdf:resource="http://nlbegrip.nl/def/skosapnl#Concept-broadMatch"/>
+        <shacl:property rdf:resource="http://nlbegrip.nl/def/skosapnl#Concept-broader"/>
+        <shacl:property rdf:resource="http://nlbegrip.nl/def/skosapnl#Concept-broaderGeneric"/>
+        <shacl:property rdf:resource="http://nlbegrip.nl/def/skosapnl#Concept-broaderInstantial"/>
+        <shacl:property rdf:resource="http://nlbegrip.nl/def/skosapnl#Concept-broaderPartitive"/>
+        <shacl:property rdf:resource="http://nlbegrip.nl/def/skosapnl#Concept-changeNote"/>
+        <shacl:property rdf:resource="http://nlbegrip.nl/def/skosapnl#Concept-closeMatch"/>
+        <shacl:property rdf:resource="http://nlbegrip.nl/def/skosapnl#Concept-comment"/>
+        <shacl:property rdf:resource="http://nlbegrip.nl/def/skosapnl#Concept-definition"/>
+        <shacl:property rdf:resource="http://nlbegrip.nl/def/skosapnl#Concept-editorialNote"/>
+        <shacl:property rdf:resource="http://nlbegrip.nl/def/skosapnl#Concept-exactMatch"/>
+        <shacl:property rdf:resource="http://nlbegrip.nl/def/skosapnl#Concept-example"/>
+        <shacl:property rdf:resource="http://nlbegrip.nl/def/skosapnl#Concept-hiddenLabel"/>
+        <shacl:property rdf:resource="http://nlbegrip.nl/def/skosapnl#Concept-historyNote"/>
+        <shacl:property rdf:resource="http://nlbegrip.nl/def/skosapnl#Concept-inScheme"/>
+        <shacl:property rdf:resource="http://nlbegrip.nl/def/skosapnl#Concept-label"/>
+        <shacl:property rdf:resource="http://nlbegrip.nl/def/skosapnl#Concept-narrowMatch"/>
+        <shacl:property rdf:resource="http://nlbegrip.nl/def/skosapnl#Concept-narrower"/>
+        <shacl:property rdf:resource="http://nlbegrip.nl/def/skosapnl#Concept-narrowerGeneric"/>
+        <shacl:property rdf:resource="http://nlbegrip.nl/def/skosapnl#Concept-narrowerInstantial"/>
+        <shacl:property rdf:resource="http://nlbegrip.nl/def/skosapnl#Concept-narrowerPartitive"/>
+        <shacl:property rdf:resource="http://nlbegrip.nl/def/skosapnl#Concept-notation"/>
+        <shacl:property rdf:resource="http://nlbegrip.nl/def/skosapnl#Concept-prefLabel"/>
+        <shacl:property rdf:resource="http://nlbegrip.nl/def/skosapnl#Concept-related"/>
+        <shacl:property rdf:resource="http://nlbegrip.nl/def/skosapnl#Concept-relatedMatch"/>
+        <shacl:property rdf:resource="http://nlbegrip.nl/def/skosapnl#Concept-scopeNote"/>
+        <shacl:property rdf:resource="http://nlbegrip.nl/def/skosapnl#Concept-source"/>
+        <shacl:property rdf:resource="http://nlbegrip.nl/def/skosapnl#Concept-topConceptOf"/>
+        <shacl:targetClass rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#Concept-altLabel -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#Concept-altLabel">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">alternatieve term</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+        <shacl:description xml:lang="en">An alternative lexical label for a resource.</shacl:description>
+        <shacl:description xml:lang="nl">Een alternatieve term voor een begrip is een term die gebruikt kan worden als alternatief voor de voorkeursterm van dit begrip, maar niet de voorkeur heeft.</shacl:description>
+        <shacl:disjoint rdf:resource="http://www.w3.org/2004/02/skos/core#hiddenLabel"/>
+        <shacl:group rdf:resource="http://nlbegrip.nl/def/skosapnl#LabelsAndDescriptionPropertyGroup"/>
+        <shacl:name xml:lang="nl">alternatieve term</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#Concept-broadMatch -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#Concept-broadMatch">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">heeft overeenkomstig bovenliggend</rdfs:label>
+        <shacl:class rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <shacl:description xml:lang="en">Used to state a hierarchical mapping link between two conceptual resources in different concept schemes.</shacl:description>
+        <shacl:description xml:lang="en">skos:broadMatch is used to state a hierarchical mapping link between two conceptual resources in different concept schemes.</shacl:description>
+        <shacl:disjoint rdf:resource="http://www.w3.org/2004/02/skos/core#relatedMatch"/>
+        <shacl:group rdf:resource="http://nlbegrip.nl/def/skosapnl#MatchingRelationshipsPropertyGroup"/>
+        <shacl:name xml:lang="nl">heeft overeenkomstig bovenliggend</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#broadMatch"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#Concept-broader -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#Concept-broader">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">heeft bovenliggend begrip</rdfs:label>
+        <shacl:class rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <shacl:description xml:lang="nl">Relateert een begrip aan een bovenliggend begrip in de hierarchie.</shacl:description>
+        <shacl:description xml:lang="en">Relates a concept to a concept that is more general in meaning.</shacl:description>
+        <shacl:group rdf:resource="http://nlbegrip.nl/def/skosapnl#SemanticRelationPropertyGroup"/>
+        <shacl:name xml:lang="nl">heeft bovenliggend begrip</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#broader"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#Concept-broaderGeneric -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#Concept-broaderGeneric">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">Is specialisatie van</rdfs:label>
+        <shacl:class rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <shacl:description xml:lang="nl">Relateert een begrip aan een meer generieker begrip</shacl:description>
+        <shacl:group rdf:resource="http://nlbegrip.nl/def/skosapnl#Iso-thesRelationships"/>
+        <shacl:name xml:lang="nl">is specialisatie van</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</shacl:order>
+        <shacl:path rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#Concept-broaderInstantial -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#Concept-broaderInstantial">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">is exemplaar van</rdfs:label>
+        <shacl:class rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <shacl:description xml:lang="nl">Relateert een begrip, een exemplaar, aan een ander begrip, de categorie, waartoe eerstgenoemde begrip behoort.</shacl:description>
+        <shacl:group rdf:resource="http://nlbegrip.nl/def/skosapnl#Iso-thesRelationships"/>
+        <shacl:name xml:lang="nl">is exemplaar van</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</shacl:order>
+        <shacl:path rdf:resource="http://purl.org/iso25964/skos-thes#broaderInstantial"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#Concept-broaderPartitive -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#Concept-broaderPartitive">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">Is onderdeel van</rdfs:label>
+        <shacl:class rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <shacl:description xml:lang="nl">Relateert een begrip aan een meer omvattend begrip. Voorbeelden van eerstgenoemde begrip zullen onderdeel van voorbeelden van het meer omvattende begrip zijn.</shacl:description>
+        <shacl:group rdf:resource="http://nlbegrip.nl/def/skosapnl#Iso-thesRelationships"/>
+        <shacl:name xml:lang="nl">is onderdeel van</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</shacl:order>
+        <shacl:path rdf:resource="http://purl.org/iso25964/skos-thes#broaderPartitive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#Concept-changeNote -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#Concept-changeNote">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">wijzigingsnotitie</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+        <shacl:description xml:lang="en">A note about a modification to a concept.</shacl:description>
+        <shacl:description xml:lang="nl">Notitie over een wijziging aan het concept</shacl:description>
+        <shacl:group rdf:resource="http://nlbegrip.nl/def/skosapnl#NotesPropertyGroup"/>
+        <shacl:name xml:lang="en">change note</shacl:name>
+        <shacl:name xml:lang="nl">wijzigingsnotitie</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#changeNote"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#Concept-closeMatch -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#Concept-closeMatch">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">is vrijwel overeenkomstig</rdfs:label>
+        <shacl:class rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <shacl:description xml:lang="en">Used to link two concepts that are sufficiently similar that they can be used interchangeably in some information retrieval applications. In order to avoid the possibility of &quot;compound errors&quot; when combining mappings across more than two concept schemes, skos:closeMatch is not declared to be a transitive property.</shacl:description>
+        <shacl:group rdf:resource="http://nlbegrip.nl/def/skosapnl#MatchingRelationshipsPropertyGroup"/>
+        <shacl:name xml:lang="nl">is vrijwel overeenkomstig</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#closeMatch"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#Concept-comment -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#Concept-comment">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:comment xml:lang="nl">Een begrip heeft bij voorkeur een uitleg in &apos;klare taal&apos;.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Preferably a concept has a comment in &apos;clear language&apos;.</rdfs:comment>
+        <rdfs:label xml:lang="nl">comment</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+        <shacl:group rdf:resource="http://nlbegrip.nl/def/skosapnl#LabelsAndDescriptionPropertyGroup"/>
+        <shacl:name xml:lang="en">comment</shacl:name>
+        <shacl:name xml:lang="nl">uitleg</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#Concept-definition -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#Concept-definition">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">definitie</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+        <shacl:description xml:lang="en">A statement or formal explanation of the meaning of a concept.</shacl:description>
+        <shacl:description xml:lang="nl">Een definitie van een begrip is een tekstuele beschrijving van de betekenis van dit begrip waarmee het begrip kan worden onderscheiden van andere begrippen.</shacl:description>
+        <shacl:group rdf:resource="http://nlbegrip.nl/def/skosapnl#DefinitionPropertyGroup"/>
+        <shacl:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:minCount>
+        <shacl:name xml:lang="nl">definitie</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#definition"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#Concept-editorialNote -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#Concept-editorialNote">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">redactionele notitie</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+        <shacl:description xml:lang="en">A note for an editor, translator or maintainer of the vocabulary.</shacl:description>
+        <shacl:group rdf:resource="http://nlbegrip.nl/def/skosapnl#NotesPropertyGroup"/>
+        <shacl:name xml:lang="en">editorial note</shacl:name>
+        <shacl:name xml:lang="nl">redactionele notitie</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#editorialNote"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#Concept-exactMatch -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#Concept-exactMatch">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">is exact overeenkomstig</rdfs:label>
+        <shacl:class rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <shacl:description xml:lang="en">Used to link two concepts, indicating a high degree of confidence that the concepts can be used interchangeably across a wide range of information retrieval applications. skos:exactMatch is a transitive property, and is a sub-property of skos:closeMatch.</shacl:description>
+        <shacl:disjoint rdf:resource="http://www.w3.org/2004/02/skos/core#broadMatch"/>
+        <shacl:disjoint rdf:resource="http://www.w3.org/2004/02/skos/core#relatedMatch"/>
+        <shacl:group rdf:resource="http://nlbegrip.nl/def/skosapnl#MatchingRelationshipsPropertyGroup"/>
+        <shacl:name xml:lang="nl">is exact overeenkomstig</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#Concept-example -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#Concept-example">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">voorbeeld</rdfs:label>
+        <shacl:description xml:lang="en">An example of the use of a concept.</shacl:description>
+        <shacl:description xml:lang="nl">Een voorbeeld van het gebruik van het concept.</shacl:description>
+        <shacl:group rdf:resource="http://nlbegrip.nl/def/skosapnl#NotesPropertyGroup"/>
+        <shacl:name xml:lang="en">example</shacl:name>
+        <shacl:name xml:lang="nl">voorbeeld</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRIOrLiteral"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#example"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#Concept-hiddenLabel -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#Concept-hiddenLabel">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">zoekterm</rdfs:label>
+        <shacl:description xml:lang="en">A lexical label for a resource that should be hidden when generating visual displays of the resource, but should still be accessible to free text search operations.</shacl:description>
+        <shacl:group rdf:resource="http://nlbegrip.nl/def/skosapnl#LabelsAndDescriptionPropertyGroup"/>
+        <shacl:name xml:lang="nl">zoekterm</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#hiddenLabel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#Concept-historyNote -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#Concept-historyNote">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">historie notitie</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+        <shacl:description xml:lang="en">A note about the past state/use/meaning of a concept.</shacl:description>
+        <shacl:description xml:lang="nl">Notitie over de voormalige status/gebruik/betekenis van het begrip</shacl:description>
+        <shacl:group rdf:resource="http://nlbegrip.nl/def/skosapnl#NotesPropertyGroup"/>
+        <shacl:name xml:lang="nl">historie notitie</shacl:name>
+        <shacl:name xml:lang="en">history note</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#historyNote"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#Concept-inScheme -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#Concept-inScheme">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">in kader</rdfs:label>
+        <shacl:class rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <shacl:group rdf:resource="http://nlbegrip.nl/def/skosapnl#LabelsAndDescriptionPropertyGroup"/>
+        <shacl:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:minCount>
+        <shacl:name xml:lang="nl">in kader</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#Concept-label -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#Concept-label">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">label</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+        <shacl:description xml:lang="nl">Een label voor een object is een voor mensen leesbare naam ter aanduiding van een object.</shacl:description>
+        <shacl:group rdf:resource="http://nlbegrip.nl/def/skosapnl#LabelsAndDescriptionPropertyGroup"/>
+        <shacl:name xml:lang="nl">label</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#Concept-narrowMatch -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#Concept-narrowMatch">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">heeft overeenkomstig onderliggend</rdfs:label>
+        <shacl:class rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <shacl:disjoint rdf:resource="http://www.w3.org/2004/02/skos/core#relatedMatch"/>
+        <shacl:group rdf:resource="http://nlbegrip.nl/def/skosapnl#MatchingRelationshipsPropertyGroup"/>
+        <shacl:name xml:lang="nl">heeft overeenkomstig onderliggend</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#narrowMatch"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#Concept-narrower -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#Concept-narrower">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">heeft onderliggend begrip</rdfs:label>
+        <shacl:class rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <shacl:description xml:lang="nl">Relateert een begrip aan een onderliggend begrip in de hierarchie.</shacl:description>
+        <shacl:description xml:lang="en">Relates a concept to a concept that is more specific in meaning.</shacl:description>
+        <shacl:group rdf:resource="http://nlbegrip.nl/def/skosapnl#SemanticRelationPropertyGroup"/>
+        <shacl:name xml:lang="nl">heeft onderliggend begrip</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#narrower"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#Concept-narrowerGeneric -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#Concept-narrowerGeneric">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">Is generalisatie van</rdfs:label>
+        <shacl:class rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <shacl:description xml:lang="nl">Relateert een begrip aan een meer specifieker begrip</shacl:description>
+        <shacl:group rdf:resource="http://nlbegrip.nl/def/skosapnl#Iso-thesRelationships"/>
+        <shacl:name xml:lang="nl">is generalisatie van</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</shacl:order>
+        <shacl:path rdf:resource="http://purl.org/iso25964/skos-thes#narrowerGeneric"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#Concept-narrowerInstantial -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#Concept-narrowerInstantial">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">is categorie van</rdfs:label>
+        <shacl:class rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <shacl:description xml:lang="nl">Relateert een begrip, de categorie, aan een begrip dat exemplarisch is voor eerstgenoemde begrip.</shacl:description>
+        <shacl:group rdf:resource="http://nlbegrip.nl/def/skosapnl#Iso-thesRelationships"/>
+        <shacl:name xml:lang="nl">is categorie van</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56</shacl:order>
+        <shacl:path rdf:resource="http://purl.org/iso25964/skos-thes#narrowerInstantial"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#Concept-narrowerPartitive -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#Concept-narrowerPartitive">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">omvat</rdfs:label>
+        <shacl:class rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <shacl:description xml:lang="nl">Relateert een begrip aan een minder omvattend begrip. Voorbeelden van eerstgenoemde begrip zullen bestaan uit voorbeelden van het minder omvattende begrip zijn.</shacl:description>
+        <shacl:group rdf:resource="http://nlbegrip.nl/def/skosapnl#Iso-thesRelationships"/>
+        <shacl:name xml:lang="nl">omvat</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54</shacl:order>
+        <shacl:path rdf:resource="http://purl.org/iso25964/skos-thes#narrowerPartitive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#Concept-notation -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#Concept-notation">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">Code</rdfs:label>
+        <shacl:description xml:lang="en">A notation, also known as classification code, is a string of characters such as &quot;T58.5&quot; or &quot;303.4833&quot; used to uniquely identify a concept within the scope of a given concept scheme.</shacl:description>
+        <shacl:group rdf:resource="http://nlbegrip.nl/def/skosapnl#LabelsAndDescriptionPropertyGroup"/>
+        <shacl:name xml:lang="nl">code</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#Concept-prefLabel -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#Concept-prefLabel">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">Voorkeursterm</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+        <shacl:description xml:lang="en">The preferred lexical label for a resource, in a given language.</shacl:description>
+        <shacl:disjoint rdf:resource="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <shacl:disjoint rdf:resource="http://www.w3.org/2004/02/skos/core#hiddenLabel"/>
+        <shacl:group rdf:resource="http://nlbegrip.nl/def/skosapnl#LabelsAndDescriptionPropertyGroup"/>
+        <shacl:message xml:lang="nl">Een begrip heeft altijd 1 voorkeursterm.</shacl:message>
+        <shacl:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:minCount>
+        <shacl:name xml:lang="nl">voorkeursterm</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <shacl:severity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
+        <shacl:uniqueLang rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</shacl:uniqueLang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#Concept-related -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#Concept-related">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">is gerelateerd aan</rdfs:label>
+        <shacl:class rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <shacl:description xml:lang="nl">Een concept met een associatieve semantische relatie</shacl:description>
+        <shacl:description xml:lang="en">Relates a concept to a concept with which there is an associative semantic relationship.</shacl:description>
+        <shacl:disjoint rdf:resource="http://www.w3.org/2004/02/skos/core#broaderTransitive"/>
+        <shacl:group rdf:resource="http://nlbegrip.nl/def/skosapnl#SemanticRelationPropertyGroup"/>
+        <shacl:name xml:lang="en">has related</shacl:name>
+        <shacl:name xml:lang="nl">is gerelateerd aan</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#related"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#Concept-relatedMatch -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#Concept-relatedMatch">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">is overeenkomstig verwant</rdfs:label>
+        <shacl:class rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <shacl:description xml:lang="en">Used to state an associative mapping link between two conceptual resources in different concept schemes.</shacl:description>
+        <shacl:description xml:lang="en">skos:relatedMatch is used to state an associative mapping link between two conceptual resources in different concept schemes.</shacl:description>
+        <shacl:group rdf:resource="http://nlbegrip.nl/def/skosapnl#MatchingRelationshipsPropertyGroup"/>
+        <shacl:name xml:lang="nl">is overeenkomstig verwant</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#relatedMatch"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#Concept-scopeNote -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#Concept-scopeNote">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">toelichting</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+        <shacl:description xml:lang="en">A note that helps to clarify the meaning and/or the use of a concept.</shacl:description>
+        <shacl:group rdf:resource="http://nlbegrip.nl/def/skosapnl#NotesPropertyGroup"/>
+        <shacl:name xml:lang="en">scope note</shacl:name>
+        <shacl:name xml:lang="nl">toelichting</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#scopeNote"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#Concept-source -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#Concept-source">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">bron</rdfs:label>
+        <shacl:description xml:lang="nl">Een bron voor een begrip is een gerelateerde brondocument waaruit de betekenis van het begrip is afgeleid.</shacl:description>
+        <shacl:group rdf:resource="http://nlbegrip.nl/def/skosapnl#DefinitionPropertyGroup"/>
+        <shacl:name xml:lang="nl">bron</shacl:name>
+        <shacl:node rdf:resource="http://nlbegrip.nl/def/skosapnl#SourceDocument"/>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#BlankNodeOrIRI"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</shacl:order>
+        <shacl:path rdf:resource="http://purl.org/dc/terms/source"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#Concept-topConceptOf -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#Concept-topConceptOf">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">is topbegrip van</rdfs:label>
+        <shacl:class rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <shacl:group rdf:resource="http://nlbegrip.nl/def/skosapnl#SemanticRelationPropertyGroup"/>
+        <shacl:name xml:lang="nl">is topbegrip van</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#topConceptOf"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#ConceptScheme -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#ConceptScheme">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:comment xml:lang="en">A set of concepts, optionally including statements about semantic relationships between those concepts.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een verzameling concepten en (optioneel) semantische relaties tussen de concepten</rdfs:comment>
+        <rdfs:label xml:lang="nl">Begrippenkader</rdfs:label>
+        <rdfs:label xml:lang="en">ConceptScheme</rdfs:label>
+        <shacl:name xml:lang="nl">Begrippenkader</shacl:name>
+        <shacl:name xml:lang="en">ConceptScheme</shacl:name>
+        <shacl:property rdf:resource="http://nlbegrip.nl/def/skosapnl#ConceptScheme-comment"/>
+        <shacl:property rdf:resource="http://nlbegrip.nl/def/skosapnl#ConceptScheme-hasTopConcept"/>
+        <shacl:property rdf:resource="http://nlbegrip.nl/def/skosapnl#ConceptScheme-label"/>
+        <shacl:targetClass rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#ConceptScheme-comment -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#ConceptScheme-comment">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+        <shacl:group rdf:resource="http://nlbegrip.nl/def/skosapnl#LabelsAndDescriptionPropertyGroup"/>
+        <shacl:name xml:lang="en">comment</shacl:name>
+        <shacl:name xml:lang="nl">uitleg</shacl:name>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#ConceptScheme-hasTopConcept -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#ConceptScheme-hasTopConcept">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">heeft topbegrip</rdfs:label>
+        <shacl:class rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <shacl:description xml:lang="nl">Relateert, bij conventie, een begrippenkader met een begrip dat is de top van een taxonomie.</shacl:description>
+        <shacl:description xml:lang="en">Relates, by convention, a concept scheme to a concept which is topmost in the broader/narrower concept hierarchies for that scheme, providing an entry point to these hierarchies.</shacl:description>
+        <shacl:group rdf:resource="http://nlbegrip.nl/def/skosapnl#SemanticRelationPropertyGroup"/>
+        <shacl:name xml:lang="nl">heeft topbegrip</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#hasTopConcept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#ConceptScheme-label -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#ConceptScheme-label">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">label</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+        <shacl:description xml:lang="nl">Een label voor een object is een voor mensen leesbare naam ter aanduiding van een object.</shacl:description>
+        <shacl:group rdf:resource="http://nlbegrip.nl/def/skosapnl#LabelsAndDescriptionPropertyGroup"/>
+        <shacl:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:minCount>
+        <shacl:name xml:lang="nl">label</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#DefinitionPropertyGroup -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#DefinitionPropertyGroup">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyGroup"/>
+        <rdfs:label xml:lang="nl">Definitie</rdfs:label>
+        <rdfs:label xml:lang="en">Definition</rdfs:label>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:order>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#Iso-thesRelationships -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#Iso-thesRelationships">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyGroup"/>
+        <rdfs:label xml:lang="en">Iso-thes Relationships</rdfs:label>
+        <rdfs:label xml:lang="nl">Iso-thes relaties</rdfs:label>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</shacl:order>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#LabelsAndDescriptionPropertyGroup -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#LabelsAndDescriptionPropertyGroup">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyGroup"/>
+        <rdfs:label xml:lang="en">Labels and Description</rdfs:label>
+        <rdfs:label xml:lang="nl">Termen en beschrijvingen</rdfs:label>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</shacl:order>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#MatchingRelationshipsPropertyGroup -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#MatchingRelationshipsPropertyGroup">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyGroup"/>
+        <rdfs:label xml:lang="nl">Harmonisatierelaties</rdfs:label>
+        <rdfs:label xml:lang="en">Matching Relationships</rdfs:label>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</shacl:order>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#NotesPropertyGroup -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#NotesPropertyGroup">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyGroup"/>
+        <rdfs:label xml:lang="en">Notes</rdfs:label>
+        <rdfs:label xml:lang="nl">Notities</rdfs:label>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</shacl:order>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#SemanticRelationPropertyGroup -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#SemanticRelationPropertyGroup">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyGroup"/>
+        <rdfs:label xml:lang="en">Semantic Relationships</rdfs:label>
+        <rdfs:label xml:lang="nl">Semantische relaties</rdfs:label>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</shacl:order>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#SourceDocument -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#SourceDocument">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:comment xml:lang="nl">Een Bron is een document, of fragment van een document, die als bron dient voor een bepaald begrip.</rdfs:comment>
+        <rdfs:label xml:lang="nl">Brondocument</rdfs:label>
+        <shacl:property rdf:resource="http://nlbegrip.nl/def/skosapnl#SourceDocument-bibliographicCitation"/>
+        <shacl:property rdf:resource="http://nlbegrip.nl/def/skosapnl#SourceDocument-comment"/>
+        <shacl:property rdf:resource="http://nlbegrip.nl/def/skosapnl#SourceDocument-label"/>
+        <shacl:property rdf:resource="http://nlbegrip.nl/def/skosapnl#SourceDocument-page"/>
+        <shacl:property rdf:resource="http://nlbegrip.nl/def/skosapnl#SourceDocument-type"/>
+        <shacl:targetObjectsOf rdf:resource="http://purl.org/dc/terms/source"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#SourceDocument-bibliographicCitation -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#SourceDocument-bibliographicCitation">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">citeertitel</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <shacl:description xml:lang="nl">Een reeks gegevens waarmee een document of fragment daarvan gevonden kan worden. Er bestaan verschillende citeerstijlen zoals IEEE, APA of MLA.</shacl:description>
+        <shacl:group rdf:resource="http://nlbegrip.nl/def/skosapnl#LabelsAndDescriptionPropertyGroup"/>
+        <shacl:name xml:lang="nl">citeertitel</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</shacl:order>
+        <shacl:path rdf:resource="http://purl.org/dc/terms/bibliographicCitation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#SourceDocument-comment -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#SourceDocument-comment">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">uitleg</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+        <shacl:description xml:lang="nl">Uitgebreide, voor de mens leesbare beschrijving van de bron</shacl:description>
+        <shacl:group rdf:resource="http://nlbegrip.nl/def/skosapnl#LabelsAndDescriptionPropertyGroup"/>
+        <shacl:name xml:lang="nl">uitleg</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#SourceDocument-label -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#SourceDocument-label">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">label</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+        <shacl:description xml:lang="nl">Compacte, voor de mens leesbare aanduiding van de bron.</shacl:description>
+        <shacl:group rdf:resource="http://nlbegrip.nl/def/skosapnl#LabelsAndDescriptionPropertyGroup"/>
+        <shacl:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:minCount>
+        <shacl:name xml:lang="nl">label</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#SourceDocument-page -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#SourceDocument-page">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">url</rdfs:label>
+        <shacl:description xml:lang="nl">Vindplaats van de bron op internet.</shacl:description>
+        <shacl:group rdf:resource="http://nlbegrip.nl/def/skosapnl#LabelsAndDescriptionPropertyGroup"/>
+        <shacl:name xml:lang="nl">url</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</shacl:order>
+        <shacl:path rdf:resource="http://xmlns.com/foaf/0.1/page"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://nlbegrip.nl/def/skosapnl#SourceDocument-type -->
+
+    <owl:NamedIndividual rdf:about="http://nlbegrip.nl/def/skosapnl#SourceDocument-type">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">soort bron</rdfs:label>
+        <shacl:class rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <shacl:description xml:lang="nl">Aanduiding van het type of genre van het brondocument.</shacl:description>
+        <shacl:group rdf:resource="http://nlbegrip.nl/def/skosapnl#LabelsAndDescriptionPropertyGroup"/>
+        <shacl:name xml:lang="nl">soort bron</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</shacl:order>
+        <shacl:path rdf:resource="http://purl.org/dc/terms/type"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#Collection -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#Collection">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:comment xml:lang="en">A meaningful collection of concepts.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een verzameling concepten met een samenhangende betekenis.</rdfs:comment>
+        <rdfs:label xml:lang="nl">Collectie</rdfs:label>
+        <rdfs:label xml:lang="en">Collection</rdfs:label>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#Collection-label"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#Collection-member"/>
+        <shacl:targetClass rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#Collection-label -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#Collection-label">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">label</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+        <shacl:description xml:lang="nl">Een label voor een object is een voor mensen leesbare naam ter aanduiding van een object.</shacl:description>
+        <shacl:group rdf:resource="http://pldn.nl/def/skosapnl#LabelsAndDescriptionPropertyGroup"/>
+        <shacl:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:minCount>
+        <shacl:name xml:lang="nl">label</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#Collection-member -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#Collection-member">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">bevat</rdfs:label>
+        <shacl:description xml:lang="nl">Relateert een collectie aan een begrip dat onderdeel is van deze collectie.</shacl:description>
+        <shacl:description xml:lang="en">Relates a collection to one of its members.</shacl:description>
+        <shacl:name xml:lang="nl">bevat</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:or>
+            <rdf:Description/>
+        </shacl:or>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#member"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#Concept -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#Concept">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:comment xml:lang="en">An idea or notion; a unit of thought.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een abstract idee of notie.</rdfs:comment>
+        <rdfs:label xml:lang="nl">Begrip</rdfs:label>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#Concept-altLabel"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#Concept-broadMatch"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#Concept-broader"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#Concept-broaderGeneric"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#Concept-broaderInstantial"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#Concept-broaderPartitive"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#Concept-changeNote"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#Concept-closeMatch"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#Concept-comment"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#Concept-definition"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#Concept-editorialNote"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#Concept-exactMatch"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#Concept-example"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#Concept-hiddenLabel"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#Concept-historyNote"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#Concept-inScheme"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#Concept-label"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#Concept-narrowMatch"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#Concept-narrower"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#Concept-narrowerGeneric"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#Concept-narrowerInstantial"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#Concept-narrowerPartitive"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#Concept-notation"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#Concept-prefLabel"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#Concept-related"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#Concept-relatedMatch"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#Concept-scopeNote"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#Concept-source"/>
+        <shacl:targetClass rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#Concept-altLabel -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#Concept-altLabel">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">alternative term</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+        <shacl:description xml:lang="en">An alternative lexical label for a resource.</shacl:description>
+        <shacl:description xml:lang="nl">Een alternatieve term voor een begrip is een term die gebruikt kan worden als alternatief voor de voorkeursterm van dit begrip, maar niet de voorkeur heeft.</shacl:description>
+        <shacl:disjoint rdf:resource="http://www.w3.org/2004/02/skos/core#hiddenLabel"/>
+        <shacl:group rdf:resource="http://pldn.nl/def/skosapnl#LabelsAndDescriptionPropertyGroup"/>
+        <shacl:name xml:lang="nl">alternative term</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#Concept-broadMatch -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#Concept-broadMatch">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">overeenkomstig generieker</rdfs:label>
+        <shacl:class rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <shacl:description xml:lang="en">Used to state a hierarchical mapping link between two conceptual resources in different concept schemes.</shacl:description>
+        <shacl:description xml:lang="en">skos:broadMatch is used to state a hierarchical mapping link between two conceptual resources in different concept schemes.</shacl:description>
+        <shacl:disjoint rdf:resource="http://www.w3.org/2004/02/skos/core#relatedMatch"/>
+        <shacl:group rdf:resource="http://pldn.nl/def/skosapnl#MatchingRelationshipsPropertyGroup"/>
+        <shacl:name xml:lang="nl">overeenkomstig generieker</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#broadMatch"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#Concept-broader -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#Concept-broader">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">heeft breder begrip</rdfs:label>
+        <shacl:class rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <shacl:description xml:lang="nl">Relateert een begrip aan een bovenliggend begrip in de hierarchie.</shacl:description>
+        <shacl:description xml:lang="en">Relates a concept to a concept that is more general in meaning.</shacl:description>
+        <shacl:group rdf:resource="http://pldn.nl/def/skosapnl#SemanticRelationPropertyGroup"/>
+        <shacl:name xml:lang="nl">heeft breder begrip</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#broader"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#Concept-broaderGeneric -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#Concept-broaderGeneric">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">Is specialisatie van</rdfs:label>
+        <shacl:class rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <shacl:description xml:lang="nl">Relateert een begrip aan een meer generieker begrip</shacl:description>
+        <shacl:group rdf:resource="http://pldn.nl/def/skosapnl#Iso-thesRelationships"/>
+        <shacl:name xml:lang="nl">is specialisatie van</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</shacl:order>
+        <shacl:path rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#Concept-broaderInstantial -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#Concept-broaderInstantial">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">is exemplaar van</rdfs:label>
+        <shacl:class rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <shacl:description xml:lang="nl">Relateert een begrip, een exemplaar, aan een ander begrip, de categorie, waartoe eerstgenoemde begrip behoort.</shacl:description>
+        <shacl:group rdf:resource="http://pldn.nl/def/skosapnl#Iso-thesRelationships"/>
+        <shacl:name xml:lang="nl">is exemplaar van</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</shacl:order>
+        <shacl:path rdf:resource="http://purl.org/iso25964/skos-thes#broaderInstantial"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#Concept-broaderPartitive -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#Concept-broaderPartitive">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">Is onderdeel van</rdfs:label>
+        <shacl:class rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <shacl:description xml:lang="nl">Relateert een begrip aan een meer omvattend begrip. Voorbeelden van eerstgenoemde begrip zullen onderdeel van voorbeelden van het meer omvattende begrip zijn.</shacl:description>
+        <shacl:group rdf:resource="http://pldn.nl/def/skosapnl#Iso-thesRelationships"/>
+        <shacl:name xml:lang="nl">is onderdeel van</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</shacl:order>
+        <shacl:path rdf:resource="http://purl.org/iso25964/skos-thes#broaderPartitive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#Concept-changeNote -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#Concept-changeNote">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">wijzigingsnotitie</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+        <shacl:description xml:lang="en">A note about a modification to a concept.</shacl:description>
+        <shacl:description xml:lang="nl">Notitie over een wijziging aan het concept</shacl:description>
+        <shacl:group rdf:resource="http://pldn.nl/def/skosapnl#NotesPropertyGroup"/>
+        <shacl:name xml:lang="en">change note</shacl:name>
+        <shacl:name xml:lang="nl">wijzigingsnotitie</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#changeNote"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#Concept-closeMatch -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#Concept-closeMatch">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">vrijwel overeenkomstig</rdfs:label>
+        <shacl:class rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <shacl:description xml:lang="en">Used to link two concepts that are sufficiently similar that they can be used interchangeably in some information retrieval applications. In order to avoid the possibility of &quot;compound errors&quot; when combining mappings across more than two concept schemes, skos:closeMatch is not declared to be a transitive property.</shacl:description>
+        <shacl:description xml:lang="en">skos:closeMatch is used to link two concepts that are sufficiently similar that they can be used interchangeably in some information retrieval applications. In order to avoid the possibility of &quot;compound errors&quot; when combining mappings across more than two concept schemes, skos:closeMatch is not declared to be a transitive property.</shacl:description>
+        <shacl:group rdf:resource="http://pldn.nl/def/skosapnl#MatchingRelationshipsPropertyGroup"/>
+        <shacl:name xml:lang="nl">vrijwel overeenkomstig</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#closeMatch"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#Concept-comment -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#Concept-comment">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:comment xml:lang="nl">Een begrip heeft bij voorkeur een uitleg in &apos;klare taal&apos;.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Preferably a concept has a comment in &apos;clear language&apos;.</rdfs:comment>
+        <rdfs:label xml:lang="nl">comment</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+        <shacl:group rdf:resource="http://pldn.nl/def/skosapnl#LabelsAndDescriptionPropertyGroup"/>
+        <shacl:name xml:lang="en">comment</shacl:name>
+        <shacl:name xml:lang="nl">uitleg</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#Concept-definition -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#Concept-definition">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">definitie</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+        <shacl:description xml:lang="en">A statement or formal explanation of the meaning of a concept.</shacl:description>
+        <shacl:description xml:lang="nl">Een definitie van een begrip is een tekstuele beschrijving van de betekenis van dit begrip waarmee het begrip kan worden onderscheiden van andere begrippen.</shacl:description>
+        <shacl:group rdf:resource="http://pldn.nl/def/skosapnl#DefinitionPropertyGroup"/>
+        <shacl:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:minCount>
+        <shacl:name xml:lang="nl">definitie</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#definition"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#Concept-editorialNote -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#Concept-editorialNote">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">redactionele opmerking</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+        <shacl:description xml:lang="en">A note for an editor, translator or maintainer of the vocabulary.</shacl:description>
+        <shacl:group rdf:resource="http://pldn.nl/def/skosapnl#NotesPropertyGroup"/>
+        <shacl:name xml:lang="en">editorial note</shacl:name>
+        <shacl:name xml:lang="nl">redactionele opmerking</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#editorialNote"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#Concept-exactMatch -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#Concept-exactMatch">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">exact overeenkomstig</rdfs:label>
+        <shacl:class rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <shacl:description xml:lang="en">Used to link two concepts, indicating a high degree of confidence that the concepts can be used interchangeably across a wide range of information retrieval applications. skos:exactMatch is a transitive property, and is a sub-property of skos:closeMatch.</shacl:description>
+        <shacl:disjoint rdf:resource="http://www.w3.org/2004/02/skos/core#broadMatch"/>
+        <shacl:disjoint rdf:resource="http://www.w3.org/2004/02/skos/core#relatedMatch"/>
+        <shacl:group rdf:resource="http://pldn.nl/def/skosapnl#MatchingRelationshipsPropertyGroup"/>
+        <shacl:name xml:lang="nl">exact overeenkomstig</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#Concept-example -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#Concept-example">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">voorbeeld</rdfs:label>
+        <shacl:description xml:lang="en">An example of the use of a concept.</shacl:description>
+        <shacl:description xml:lang="nl">Een voorbeeld van het gebruik van het concept.</shacl:description>
+        <shacl:group rdf:resource="http://pldn.nl/def/skosapnl#NotesPropertyGroup"/>
+        <shacl:name xml:lang="en">example</shacl:name>
+        <shacl:name xml:lang="nl">voorbeeld</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRIOrLiteral"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#example"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#Concept-hiddenLabel -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#Concept-hiddenLabel">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">zoekterm</rdfs:label>
+        <shacl:description xml:lang="en">A lexical label for a resource that should be hidden when generating visual displays of the resource, but should still be accessible to free text search operations.</shacl:description>
+        <shacl:group rdf:resource="http://pldn.nl/def/skosapnl#LabelsAndDescriptionPropertyGroup"/>
+        <shacl:name xml:lang="nl">zoekterm</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#hiddenLabel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#Concept-historyNote -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#Concept-historyNote">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">historische notitie</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+        <shacl:description xml:lang="en">A note about the past state/use/meaning of a concept.</shacl:description>
+        <shacl:description xml:lang="nl">Notitie over de voormalige status/gebruik/betekenis van het concept</shacl:description>
+        <shacl:group rdf:resource="http://pldn.nl/def/skosapnl#NotesPropertyGroup"/>
+        <shacl:name xml:lang="nl">historische notitie</shacl:name>
+        <shacl:name xml:lang="en">history note</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#historyNote"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#Concept-inScheme -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#Concept-inScheme">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">behoort tot schema</rdfs:label>
+        <shacl:class rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <shacl:description xml:lang="nl">Een begrippenkader waartoe het concept behoort.</shacl:description>
+        <shacl:description xml:lang="en">Relates a resource (for example a concept) to a concept scheme in which it is included.</shacl:description>
+        <shacl:group rdf:resource="http://pldn.nl/def/skosapnl#LabelsAndDescriptionPropertyGroup"/>
+        <shacl:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:minCount>
+        <shacl:name xml:lang="nl">behoort tot schema</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#Concept-label -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#Concept-label">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">label</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+        <shacl:description xml:lang="nl">Een label voor een object is een voor mensen leesbare naam ter aanduiding van een object.</shacl:description>
+        <shacl:group rdf:resource="http://pldn.nl/def/skosapnl#LabelsAndDescriptionPropertyGroup"/>
+        <shacl:name xml:lang="nl">label</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#Concept-narrowMatch -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#Concept-narrowMatch">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">overeenkomstig specifieker</rdfs:label>
+        <shacl:class rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <shacl:disjoint rdf:resource="http://www.w3.org/2004/02/skos/core#relatedMatch"/>
+        <shacl:group rdf:resource="http://pldn.nl/def/skosapnl#MatchingRelationshipsPropertyGroup"/>
+        <shacl:name xml:lang="nl">overeenkomstig specifieker</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#broadMatch"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#Concept-narrower -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#Concept-narrower">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">heeft enger begrip</rdfs:label>
+        <shacl:class rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <shacl:description xml:lang="nl">Relateert een concept aan een ander concept die meer specifiek in betekenis is.</shacl:description>
+        <shacl:description xml:lang="en">Relates a concept to a concept that is more specific in meaning.</shacl:description>
+        <shacl:group rdf:resource="http://pldn.nl/def/skosapnl#SemanticRelationPropertyGroup"/>
+        <shacl:name xml:lang="nl">heeft enger begrip</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#narrower"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#Concept-narrowerGeneric -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#Concept-narrowerGeneric">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">Is generalisatie van</rdfs:label>
+        <shacl:class rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <shacl:description xml:lang="nl">Relateert een begrip aan een meer specifieker begrip</shacl:description>
+        <shacl:group rdf:resource="http://pldn.nl/def/skosapnl#Iso-thesRelationships"/>
+        <shacl:name xml:lang="nl">is generalisatie van</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</shacl:order>
+        <shacl:path rdf:resource="http://purl.org/iso25964/skos-thes#narrowerGeneric"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#Concept-narrowerInstantial -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#Concept-narrowerInstantial">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">is categorie van</rdfs:label>
+        <shacl:class rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <shacl:description xml:lang="nl">Relateert een begrip, de categorie, aan een begrip dat exemplarisch is voor eerstgenoemde begrip.</shacl:description>
+        <shacl:group rdf:resource="http://pldn.nl/def/skosapnl#Iso-thesRelationships"/>
+        <shacl:name xml:lang="nl">is categorie van</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56</shacl:order>
+        <shacl:path rdf:resource="http://purl.org/iso25964/skos-thes#narrowerInstantial"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#Concept-narrowerPartitive -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#Concept-narrowerPartitive">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">omvat</rdfs:label>
+        <shacl:class rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <shacl:description xml:lang="nl">Relateert een begrip aan een minder omvattend begrip. Voorbeelden van eerstgenoemde begrip zullen bestaan uit voorbeelden van het minder omvattende begrip zijn.</shacl:description>
+        <shacl:group rdf:resource="http://pldn.nl/def/skosapnl#Iso-thesRelationships"/>
+        <shacl:name xml:lang="nl">omvat</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54</shacl:order>
+        <shacl:path rdf:resource="http://purl.org/iso25964/skos-thes#narrowerPartitive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#Concept-notation -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#Concept-notation">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">Code</rdfs:label>
+        <shacl:description xml:lang="en">A notation, also known as classification code, is a string of characters such as &quot;T58.5&quot; or &quot;303.4833&quot; used to uniquely identify a concept within the scope of a given concept scheme.</shacl:description>
+        <shacl:group rdf:resource="http://pldn.nl/def/skosapnl#LabelsAndDescriptionPropertyGroup"/>
+        <shacl:name xml:lang="nl">code</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#Concept-prefLabel -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#Concept-prefLabel">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">Voorkeursterm</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+        <shacl:description xml:lang="en">The preferred lexical label for a resource, in a given language.</shacl:description>
+        <shacl:disjoint rdf:resource="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <shacl:disjoint rdf:resource="http://www.w3.org/2004/02/skos/core#hiddenLabel"/>
+        <shacl:group rdf:resource="http://pldn.nl/def/skosapnl#LabelsAndDescriptionPropertyGroup"/>
+        <shacl:message xml:lang="nl">Een begrip heeft altijd 1 voorkeursterm.</shacl:message>
+        <shacl:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:minCount>
+        <shacl:name xml:lang="nl">voorkeursterm</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <shacl:severity rdf:resource="http://www.w3.org/ns/shacl#Violation"/>
+        <shacl:uniqueLang rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</shacl:uniqueLang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#Concept-related -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#Concept-related">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">is gerelateerd aan</rdfs:label>
+        <shacl:class rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <shacl:description xml:lang="nl">Een concept met een associatieve semantische relatie</shacl:description>
+        <shacl:description xml:lang="en">Relates a concept to a concept with which there is an associative semantic relationship.</shacl:description>
+        <shacl:disjoint rdf:resource="http://www.w3.org/2004/02/skos/core#broaderTransitive"/>
+        <shacl:group rdf:resource="http://pldn.nl/def/skosapnl#SemanticRelationPropertyGroup"/>
+        <shacl:name xml:lang="en">has related</shacl:name>
+        <shacl:name xml:lang="nl">is gerelateerd aan</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#related"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#Concept-relatedMatch -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#Concept-relatedMatch">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">Overeenkomstig verwant</rdfs:label>
+        <shacl:class rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <shacl:description xml:lang="en">Used to state an associative mapping link between two conceptual resources in different concept schemes.</shacl:description>
+        <shacl:description xml:lang="en">skos:relatedMatch is used to state an associative mapping link between two conceptual resources in different concept schemes.</shacl:description>
+        <shacl:group rdf:resource="http://pldn.nl/def/skosapnl#MatchingRelationshipsPropertyGroup"/>
+        <shacl:name xml:lang="nl">overeenkomstig verwant</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#relatedMatch"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#Concept-scopeNote -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#Concept-scopeNote">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">toelichting</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+        <shacl:description xml:lang="en">A note that helps to clarify the meaning and/or the use of a concept.</shacl:description>
+        <shacl:group rdf:resource="http://pldn.nl/def/skosapnl#NotesPropertyGroup"/>
+        <shacl:name xml:lang="en">scope note</shacl:name>
+        <shacl:name xml:lang="nl">toelichting</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#scopeNote"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#Concept-source -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#Concept-source">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">bron</rdfs:label>
+        <shacl:description xml:lang="nl">Een bron voor een begrip is een gerelateerde brondocument waaruit de betekenis van het begrip is afgeleid.</shacl:description>
+        <shacl:group rdf:resource="http://pldn.nl/def/skosapnl#DefinitionPropertyGroup"/>
+        <shacl:name xml:lang="nl">bron</shacl:name>
+        <shacl:node rdf:resource="http://pldn.nl/def/skosapnl#Source"/>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#BlankNodeOrIRI"/>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</shacl:order>
+        <shacl:path rdf:resource="http://purl.org/dc/terms/source"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#ConceptScheme -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#ConceptScheme">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#Nodeshape"/>
+        <rdfs:comment xml:lang="en">A set of concepts, optionally including statements about semantic relationships between those concepts.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een verzameling concepten en (optioneel) semantische relaties tussen de concepten</rdfs:comment>
+        <rdfs:label xml:lang="nl">Begrippencatalogus</rdfs:label>
+        <rdfs:label xml:lang="nl">Begrippenkader</rdfs:label>
+        <rdfs:label xml:lang="en">ConceptScheme</rdfs:label>
+        <shacl:name xml:lang="nl">Begrippenkader</shacl:name>
+        <shacl:name xml:lang="en">ConceptScheme</shacl:name>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#ConceptScheme-AlternatieveNaamBegrippenkader"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#ConceptScheme-BeschrijvingBegrippenkader"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#ConceptScheme-Bronhouder"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#ConceptScheme-ConformeertAan"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#ConceptScheme-Contactpunt"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#ConceptScheme-Documentatiepagina"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#ConceptScheme-FrequentieUri"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#ConceptScheme-Keywords"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#ConceptScheme-KlareTaalBeschrijvingBegrippenkader"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#ConceptScheme-LaatstBijgewerkt"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#ConceptScheme-Licentie"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#ConceptScheme-Ontwerpbeslissingen"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#ConceptScheme-Opdrachtgever"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#ConceptScheme-Publicatiedatum"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#ConceptScheme-Taal"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#ConceptScheme-ThemaCategorie"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#ConceptScheme-Toegangsrechten"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#ConceptScheme-Toelichting"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#ConceptScheme-Toezichthouder"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#ConceptScheme-Type"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#ConceptScheme-Uitgever"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#ConceptScheme-Versie"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#ConceptScheme-Voorbeeld"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#ConceptScheme-VoorkeursnaamBegrippenkader"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#ConceptScheme-Wetgeving"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#ConceptScheme-WetgevingUri"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#ConceptScheme-comment"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#ConceptScheme-hasTopConcept"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#ConceptScheme-label"/>
+        <shacl:targetClass rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#ConceptScheme-AlternatieveNaamBegrippenkader -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#ConceptScheme-AlternatieveNaamBegrippenkader">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:name xml:lang="nl">Alternatieve naam begrippenkader</shacl:name>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#ConceptScheme-BeschrijvingBegrippenkader -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#ConceptScheme-BeschrijvingBegrippenkader">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:maxCount>
+        <shacl:name xml:lang="nl">Beschrijving begrippenkader</shacl:name>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#definition"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#ConceptScheme-Bronhouder -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#ConceptScheme-Bronhouder">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:class rdf:resource="http://www.w3.org/ns/prov#Attribution"/>
+        <shacl:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:maxCount>
+        <shacl:name xml:lang="nl">Bronhouder</shacl:name>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/ns/prov#qualifiedAttribution"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#ConceptScheme-ConformeertAan -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#ConceptScheme-ConformeertAan">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:class rdf:resource="http://purl.org/dc/terms/Standard"/>
+        <shacl:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:maxCount>
+        <shacl:name xml:lang="nl">Conformeert aan</shacl:name>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</shacl:order>
+        <shacl:path rdf:resource="http://purl.org/dc/terms/conformsTo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#ConceptScheme-Contactpunt -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#ConceptScheme-Contactpunt">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:class rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+        <shacl:name xml:lang="nl">Contactpunt</shacl:name>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/ns/dcat#contactPoint"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#ConceptScheme-Documentatiepagina -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#ConceptScheme-Documentatiepagina">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:class rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <shacl:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:maxCount>
+        <shacl:name xml:lang="nl">Documentatiepagina</shacl:name>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</shacl:order>
+        <shacl:path rdf:resource="http://xmlns.com/foaf/0.1/page"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#ConceptScheme-FrequentieUri -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#ConceptScheme-FrequentieUri">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:maxCount>
+        <shacl:name xml:lang="nl">Frequentie (URI)</shacl:name>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</shacl:order>
+        <shacl:path>
+            <rdf:Description/>
+        </shacl:path>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#ConceptScheme-Keywords -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#ConceptScheme-Keywords">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:name xml:lang="nl">Keywords</shacl:name>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/ns/dcat#keyword"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#ConceptScheme-KlareTaalBeschrijvingBegrippenkader -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#ConceptScheme-KlareTaalBeschrijvingBegrippenkader">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:maxCount>
+        <shacl:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:minCount>
+        <shacl:name xml:lang="nl">Klare taal beschrijving begrippenkader </shacl:name>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#ConceptScheme-LaatstBijgewerkt -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#ConceptScheme-LaatstBijgewerkt">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:maxCount>
+        <shacl:name xml:lang="nl">Laatst bijgewerkt</shacl:name>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</shacl:order>
+        <shacl:path rdf:resource="http://purl.org/dc/terms/modified"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#ConceptScheme-Licentie -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#ConceptScheme-Licentie">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:class rdf:resource="http://purl.org/dc/terms/IicenseDocument"/>
+        <shacl:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:maxCount>
+        <shacl:name xml:lang="nl">Licentie</shacl:name>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</shacl:order>
+        <shacl:path rdf:resource="http://purl.org/dc/terms/license"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#ConceptScheme-Ontwerpbeslissingen -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#ConceptScheme-Ontwerpbeslissingen">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:name xml:lang="nl">Ontwerpbeslissingen</shacl:name>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#editorialNote"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#ConceptScheme-Opdrachtgever -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#ConceptScheme-Opdrachtgever">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:class rdf:resource="http://www.w3.org/ns/prov#Attribution"/>
+        <shacl:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:maxCount>
+        <shacl:name xml:lang="nl">Opdrachtgever</shacl:name>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/ns/prov#qualifiedAttribution"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#ConceptScheme-Publicatiedatum -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#ConceptScheme-Publicatiedatum">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:maxCount>
+        <shacl:name xml:lang="nl">Publicatiedatum</shacl:name>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</shacl:order>
+        <shacl:path rdf:resource="http://purl.org/dc/terms/issued"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#ConceptScheme-Taal -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#ConceptScheme-Taal">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:class rdf:resource="http://publications.europa.eu/resource/authority/language"/>
+        <shacl:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:minCount>
+        <shacl:name xml:lang="nl">Taal</shacl:name>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</shacl:order>
+        <shacl:path rdf:resource="http://purl.org/dc/terms/language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#ConceptScheme-ThemaCategorie -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#ConceptScheme-ThemaCategorie">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:class rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <shacl:name xml:lang="nl">Thema/categorie</shacl:name>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/ns/dcat#theme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#ConceptScheme-Toegangsrechten -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#ConceptScheme-Toegangsrechten">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:class rdf:resource="http://purl.org/dc/terms/RightsStatement"/>
+        <shacl:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:maxCount>
+        <shacl:name xml:lang="nl">Toegangsrechten</shacl:name>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</shacl:order>
+        <shacl:path rdf:resource="http://purl.org/dc/terms/accessRights"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#ConceptScheme-Toelichting -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#ConceptScheme-Toelichting">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:maxCount>
+        <shacl:name xml:lang="nl">Toelichting</shacl:name>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#scopeNote"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#ConceptScheme-Toezichthouder -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#ConceptScheme-Toezichthouder">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:class rdf:resource="http://www.w3.org/ns/prov#Attribution"/>
+        <shacl:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:maxCount>
+        <shacl:name xml:lang="nl">Toezichthouder</shacl:name>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/ns/prov#qualifiedAttribution"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#ConceptScheme-Type -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#ConceptScheme-Type">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:and>
+            <rdf:Description/>
+        </shacl:and>
+        <shacl:name xml:lang="nl">Typering</shacl:name>
+        <shacl:path rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#ConceptScheme-Uitgever -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#ConceptScheme-Uitgever">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:class rdf:resource="http://xmlns.com/foaf/0.1/Organisation"/>
+        <shacl:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:maxCount>
+        <shacl:name xml:lang="nl">Uitgever</shacl:name>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</shacl:order>
+        <shacl:path rdf:resource="http://purl.org/dc/terms/publisher"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#ConceptScheme-Versie -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#ConceptScheme-Versie">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:maxCount>
+        <shacl:name xml:lang="nl">Versie</shacl:name>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/ns/dcat#version"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#ConceptScheme-Voorbeeld -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#ConceptScheme-Voorbeeld">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:maxCount>
+        <shacl:name xml:lang="nl">Voorbeeld</shacl:name>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#example"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#ConceptScheme-VoorkeursnaamBegrippenkader -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#ConceptScheme-VoorkeursnaamBegrippenkader">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:maxCount>
+        <shacl:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:minCount>
+        <shacl:name xml:lang="nl">Voorkeursnaam begrippenkader</shacl:name>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:order>
+        <shacl:path>
+            <rdf:Description/>
+        </shacl:path>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#ConceptScheme-Wetgeving -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#ConceptScheme-Wetgeving">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:maxCount>
+        <shacl:name xml:lang="nl">Wetgeving</shacl:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#ConceptScheme-WetgevingUri -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#ConceptScheme-WetgevingUri">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <shacl:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:maxCount>
+        <shacl:name xml:lang="nl">Wetgeving (URI)</shacl:name>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</shacl:order>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#ConceptScheme-comment -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#ConceptScheme-comment">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:comment xml:lang="nl">Een begrip heeft bij voorkeur een uitleg in &apos;klare taal&apos;.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Preferably a concept has a comment in &apos;clear language&apos;.</rdfs:comment>
+        <shacl:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+        <shacl:group rdf:resource="http://pldn.nl/def/skosapnl#LabelsAndDescriptionPropertyGroup"/>
+        <shacl:name xml:lang="en">comment</shacl:name>
+        <shacl:name xml:lang="nl">uitleg</shacl:name>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</shacl:order>
+        <shacl:path rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#ConceptScheme-hasTopConcept -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#ConceptScheme-hasTopConcept">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">heeft topbegrip</rdfs:label>
+        <shacl:class rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <shacl:description xml:lang="nl">Relateert, bij conventie, een begrippenkader met een begrip dat is de top van een taxonomie.</shacl:description>
+        <shacl:description xml:lang="en">Relates, by convention, a concept scheme to a concept which is topmost in the broader/narrower concept hierarchies for that scheme, providing an entry point to these hierarchies.</shacl:description>
+        <shacl:group rdf:resource="http://pldn.nl/def/skosapnl#SemanticRelationPropertyGroup"/>
+        <shacl:name xml:lang="nl">heeft topbegrip</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#hasTopConcept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#ConceptScheme-label -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#ConceptScheme-label">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">label</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+        <shacl:description xml:lang="nl">Een label voor een object is een voor mensen leesbare naam ter aanduiding van een object.</shacl:description>
+        <shacl:group rdf:resource="http://pldn.nl/def/skosapnl#LabelsAndDescriptionPropertyGroup"/>
+        <shacl:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:minCount>
+        <shacl:name xml:lang="nl">label</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#DefinitionPropertyGroup -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#DefinitionPropertyGroup">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyGroup"/>
+        <rdfs:label xml:lang="nl">Definitie</rdfs:label>
+        <rdfs:label xml:lang="en">Definition</rdfs:label>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:order>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#Iso-thesRelationships -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#Iso-thesRelationships">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyGroup"/>
+        <rdfs:label xml:lang="en">Iso-thes Relationships</rdfs:label>
+        <rdfs:label xml:lang="nl">Iso-thes relaties</rdfs:label>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</shacl:order>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#LabelsAndDescriptionPropertyGroup -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#LabelsAndDescriptionPropertyGroup">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyGroup"/>
+        <rdfs:label xml:lang="en">Labels and Description</rdfs:label>
+        <rdfs:label xml:lang="nl">Termen en beschrijvingen</rdfs:label>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</shacl:order>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#MatchingRelationshipsPropertyGroup -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#MatchingRelationshipsPropertyGroup">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyGroup"/>
+        <rdfs:label xml:lang="nl">Harmonisatierelaties</rdfs:label>
+        <rdfs:label xml:lang="en">Matching Relationships</rdfs:label>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</shacl:order>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#NotesPropertyGroup -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#NotesPropertyGroup">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyGroup"/>
+        <rdfs:label xml:lang="en">Notes</rdfs:label>
+        <rdfs:label xml:lang="nl">Notities</rdfs:label>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</shacl:order>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#OrderedCollection -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#OrderedCollection">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:label xml:lang="nl">Geordende collectie</rdfs:label>
+        <rdfs:label xml:lang="en">Ordered collection</rdfs:label>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#OrderedCollection-label"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#OrderedCollection-memberList"/>
+        <shacl:targetClass rdf:resource="http://www.w3.org/2004/02/skos/core#OrderedCollection"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#OrderedCollection-label -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#OrderedCollection-label">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">label</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+        <shacl:description xml:lang="nl">Een label voor een object is een voor mensen leesbare naam ter aanduiding van een object.</shacl:description>
+        <shacl:group rdf:resource="http://pldn.nl/def/skosapnl#LabelsAndDescriptionPropertyGroup"/>
+        <shacl:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:minCount>
+        <shacl:name xml:lang="nl">label</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#OrderedCollection-memberList -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#OrderedCollection-memberList">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">bevat</rdfs:label>
+        <shacl:name xml:lang="nl">bevat</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:or>
+            <rdf:Description/>
+        </shacl:or>
+        <shacl:path rdf:resource="http://www.w3.org/2004/02/skos/core#memberList"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#SemanticRelationPropertyGroup -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#SemanticRelationPropertyGroup">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyGroup"/>
+        <rdfs:label xml:lang="en">Semantic Relationships</rdfs:label>
+        <rdfs:label xml:lang="nl">Semantische relaties</rdfs:label>
+        <shacl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</shacl:order>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#Source -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#Source">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+        <rdfs:comment xml:lang="nl">Een Bron is een document, of fragment van een document, die als bron dient voor een bepaald begrip.</rdfs:comment>
+        <rdfs:label xml:lang="nl">Bron</rdfs:label>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#Source-bibliographicCitation"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#Source-comment"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#Source-label"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#Source-page"/>
+        <shacl:property rdf:resource="http://pldn.nl/def/skosapnl#Source-type"/>
+        <shacl:targetObjectsOf rdf:resource="http://purl.org/dc/terms/source"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#Source-bibliographicCitation -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#Source-bibliographicCitation">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">citaat</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <shacl:description xml:lang="nl">Een reeks gegevens waarmee een document of fragment daarvan gevonden kan worden. Er bestaan verschillende citeerstijlen zoals IEEE, APA of MLA.</shacl:description>
+        <shacl:group rdf:resource="http://pldn.nl/def/skosapnl#LabelsAndDescriptionPropertyGroup"/>
+        <shacl:name xml:lang="nl">citaat</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="http://purl.org/dc/terms/bibliographicCitation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#Source-comment -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#Source-comment">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">uitleg</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+        <shacl:description xml:lang="nl">Uitgebreide, voor de mens leesbare beschrijving van de bron</shacl:description>
+        <shacl:group rdf:resource="http://pldn.nl/def/skosapnl#LabelsAndDescriptionPropertyGroup"/>
+        <shacl:name xml:lang="nl">uitleg</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#Source-label -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#Source-label">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">label</rdfs:label>
+        <shacl:datatype rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"/>
+        <shacl:description xml:lang="nl">Compacte, voor de mens leesbare aanduiding van de bron.</shacl:description>
+        <shacl:group rdf:resource="http://pldn.nl/def/skosapnl#LabelsAndDescriptionPropertyGroup"/>
+        <shacl:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shacl:minCount>
+        <shacl:name xml:lang="nl">label</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
+        <shacl:path rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#Source-page -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#Source-page">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">url</rdfs:label>
+        <shacl:description xml:lang="nl">Vindplaats van de bron op internet.</shacl:description>
+        <shacl:group rdf:resource="http://pldn.nl/def/skosapnl#LabelsAndDescriptionPropertyGroup"/>
+        <shacl:name xml:lang="nl">url</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:path rdf:resource="http://xmlns.com/foaf/0.1/page"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://pldn.nl/def/skosapnl#Source-type -->
+
+    <owl:NamedIndividual rdf:about="http://pldn.nl/def/skosapnl#Source-type">
+        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+        <rdfs:label xml:lang="nl">soort</rdfs:label>
+        <shacl:class rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <shacl:description xml:lang="nl">Aanduiding van het type of genre van het brondocument.</shacl:description>
+        <shacl:group rdf:resource="http://pldn.nl/def/skosapnl#LabelsAndDescriptionPropertyGroup"/>
+        <shacl:name xml:lang="nl">soort</shacl:name>
+        <shacl:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+        <shacl:path rdf:resource="http://purl.org/dc/terms/type"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/begrippen_nwvsv#Aanbieden -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/begrippen_nwvsv#Aanbieden">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+        <skos:prefLabel xml:lang="nl">Aanbieden</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/begrippen_nwvsv#Aangetekende_brief -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/begrippen_nwvsv#Aangetekende_brief">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Brief"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+        <skos:prefLabel xml:lang="nl">Aangetekende brief</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/begrippen_nwvsv#Adres -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/begrippen_nwvsv#Adres">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+        <skos:prefLabel xml:lang="nl">Adres</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/begrippen_nwvsv#Adreswijziging -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/begrippen_nwvsv#Adreswijziging">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:altLabel xml:lang="nl">Wijziging (van een adres)</skos:altLabel>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+        <skos:prefLabel xml:lang="nl">Adreswijziging</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/begrippen_nwvsv#Autoriteit -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/begrippen_nwvsv#Autoriteit">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+        <skos:prefLabel xml:lang="nl">Autoriteit</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <rdfs:comment xml:lang="nl">Begrippenkader van alle begrippen relevant voor de IV-implementatie van het Nieuwe Wetboek van Strafvordering.</rdfs:comment>
+        <skos:prefLabel xml:lang="nl">Begrippenkader IV-terminologie Nieuwe Wetboek van Strafvordering</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/begrippen_nwvsv#Bestemming -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/begrippen_nwvsv#Bestemming">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+        <skos:prefLabel xml:lang="nl">Bestemming</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/begrippen_nwvsv#Betekening -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/begrippen_nwvsv#Betekening">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+        <skos:prefLabel xml:lang="nl">Betekening</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/begrippen_nwvsv#Brief -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/begrippen_nwvsv#Brief">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+        <skos:prefLabel xml:lang="nl">Brief</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/begrippen_nwvsv#Elektronisch_adres -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/begrippen_nwvsv#Elektronisch_adres">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Adres"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+        <skos:prefLabel xml:lang="nl">Elektronisch adres</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/begrippen_nwvsv#Elektronische_voorziening -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/begrippen_nwvsv#Elektronische_voorziening">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Voorziening"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+        <skos:prefLabel xml:lang="nl">Elektronische voorziening</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/begrippen_nwvsv#Elektronische_weg -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/begrippen_nwvsv#Elektronische_weg">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+        <skos:prefLabel xml:lang="nl">Elektronische weg</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/begrippen_nwvsv#Indienen -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/begrippen_nwvsv#Indienen">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+        <skos:prefLabel xml:lang="nl">Indienen</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/begrippen_nwvsv#Kopie -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/begrippen_nwvsv#Kopie">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+        <skos:prefLabel xml:lang="nl">Kopie</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/begrippen_nwvsv#Mededeling -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/begrippen_nwvsv#Mededeling">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+        <skos:prefLabel xml:lang="nl">Mededeling</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/begrippen_nwvsv#Notificatie -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/begrippen_nwvsv#Notificatie">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+        <skos:prefLabel xml:lang="nl">Notificatie</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/begrippen_nwvsv#Ontsluiten -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/begrippen_nwvsv#Ontsluiten">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+        <skos:prefLabel xml:lang="nl">Ontsluiten</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/begrippen_nwvsv#Opgeven -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/begrippen_nwvsv#Opgeven">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <terms:source></terms:source>
+        <skos:altLabel xml:lang="nl">Opgeven (van een adres)</skos:altLabel>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+        <skos:prefLabel xml:lang="nl">Adresopgave</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/begrippen_nwvsv#Oproeping -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/begrippen_nwvsv#Oproeping">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+        <skos:prefLabel xml:lang="nl">Oproeping</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/begrippen_nwvsv#Overdracht -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/begrippen_nwvsv#Overdracht">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+        <skos:prefLabel xml:lang="nl">Overdracht</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/begrippen_nwvsv#Plaatsing -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/begrippen_nwvsv#Plaatsing">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+        <skos:prefLabel xml:lang="nl">Plaatsing</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/begrippen_nwvsv#Procesdeelnemer -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/begrippen_nwvsv#Procesdeelnemer">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+        <skos:prefLabel xml:lang="nl">Procesdeelnemer</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/begrippen_nwvsv#Schriftelijke_vorm -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/begrippen_nwvsv#Schriftelijke_vorm">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+        <skos:prefLabel xml:lang="nl">Schriftelijke vorm</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/begrippen_nwvsv#Stuk -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/begrippen_nwvsv#Stuk">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+        <skos:prefLabel xml:lang="nl">Stuk</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/begrippen_nwvsv#Toegang -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/begrippen_nwvsv#Toegang">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+        <skos:prefLabel xml:lang="nl">Toegang</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/begrippen_nwvsv#Toezending -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/begrippen_nwvsv#Toezending">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+        <skos:prefLabel xml:lang="nl">Toezending</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/begrippen_nwvsv#Uitreiking -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/begrippen_nwvsv#Uitreiking">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+        <skos:prefLabel xml:lang="nl">Uitreiking</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/begrippen_nwvsv#Uitreiking_in_persoon -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/begrippen_nwvsv#Uitreiking_in_persoon">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Uitreiking"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+        <skos:prefLabel xml:lang="nl">Uitreiking in persoon</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/begrippen_nwvsv#Uniek_nummer -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/begrippen_nwvsv#Uniek_nummer">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+        <skos:prefLabel xml:lang="nl">Uniek nummer</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/begrippen_nwvsv#Vastlegging -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/begrippen_nwvsv#Vastlegging">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+        <skos:prefLabel xml:lang="nl">Vastlegging</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/begrippen_nwvsv#Voorziening -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/begrippen_nwvsv#Voorziening">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+        <skos:prefLabel xml:lang="nl">Voorziening</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/begrippen_nwvsv#bericht -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/begrippen_nwvsv#bericht">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+        <skos:prefLabel xml:lang="nl">Bericht</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="http://strafrechtketen.nl/begrippen_nwvsv#Begrippenkader-IV"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
