@@ -2541,11 +2541,58 @@
     
 
 
-    <!-- http://strafrechtketen.nl/Aangetekende_brief -->
+    <!-- http://strafrechtketen.nl/autoriteit -->
 
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/Aangetekende_brief">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:broader rdf:resource="http://strafrechtketen.nl/Brief"/>
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/autoriteit">
+        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Actor"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
+        <terms:source rdf:resource="http://strafrechtketen.nl/nwvsv:wetboek-van-strafvordering"/>
+        <skos:definition></skos:definition>
+        <skos:example></skos:example>
+        <skos:prefLabel xml:lang="nl">Autoriteit</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/procesdeelnemer -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/procesdeelnemer">
+        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Actor"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
+        <skos:prefLabel xml:lang="nl">Procesdeelnemer</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/def/nwvsv#OpenbaarMinisterie -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/def/nwvsv#OpenbaarMinisterie">
+        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Actor"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
+        <skos:prefLabel>Openbaar Ministerie</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/def/nwvsv#aanbieden -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/def/nwvsv#aanbieden">
+        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Act"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
+        <skos:topConceptOf rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
+        <terms:source rdf:resource="http://strafrechtketen.nl/def/nwvsv#wetboek-van-strafvordering"/>
+        <skos:definition>[definitie]</skos:definition>
+        <skos:example></skos:example>
+        <skos:prefLabel xml:lang="nl">Aanbieden</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/def/nwvsv#aangetekendeBrief -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/def/nwvsv#aangetekendeBrief">
+        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Object"/>
+        <skos:broader rdf:resource="http://strafrechtketen.nl/def/nwvsv#brief"/>
         <skos:inScheme rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
         <skos:topConceptOf rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
         <terms:source rdf:resource="http://strafrechtketen.nl/nwvsv:wetboek-van-strafvordering"/>
@@ -2556,10 +2603,10 @@
     
 
 
-    <!-- http://strafrechtketen.nl/Adres -->
+    <!-- http://strafrechtketen.nl/def/nwvsv#adres -->
 
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/Adres">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/def/nwvsv#adres">
+        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Object"/>
         <skos:inScheme rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
         <skos:topConceptOf rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
         <terms:source rdf:resource="http://strafrechtketen.nl/nwvsv:wetboek-van-strafvordering"/>
@@ -2570,13 +2617,13 @@
     
 
 
-    <!-- http://strafrechtketen.nl/Adreswijziging -->
+    <!-- http://strafrechtketen.nl/def/nwvsv#adreswijziging -->
 
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/Adreswijziging">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/def/nwvsv#adreswijziging">
+        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Act"/>
         <skos:inScheme rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
         <skos:topConceptOf rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
-        <terms:source rdf:resource="http://strafrechtketen.nl/nwvsv:wetboek-van-strafvordering"/>
+        <terms:source rdf:resource="http://strafrechtketen.nl/def/nwvsv#wetboek-van-strafvordering"/>
         <skos:definition></skos:definition>
         <skos:example></skos:example>
         <skos:prefLabel xml:lang="nl">Adreswijziging</skos:prefLabel>
@@ -2584,61 +2631,85 @@
     
 
 
-    <!-- http://strafrechtketen.nl/Autoriteit -->
+    <!-- http://strafrechtketen.nl/def/nwvsv#bericht -->
 
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/Autoriteit">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/def/nwvsv#bericht">
+        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Object"/>
         <skos:inScheme rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
-        <skos:topConceptOf rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
-        <terms:source rdf:resource="http://strafrechtketen.nl/nwvsv:wetboek-van-strafvordering"/>
-        <skos:definition></skos:definition>
-        <skos:example></skos:example>
-        <skos:prefLabel xml:lang="nl">Autoriteit</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Bericht</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://strafrechtketen.nl/Bestemming -->
+    <!-- http://strafrechtketen.nl/def/nwvsv#bestemming -->
 
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/Bestemming">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/def/nwvsv#bestemming">
+        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Object"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
         <skos:prefLabel xml:lang="nl">Bestemming</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://strafrechtketen.nl/Betekening -->
+    <!-- http://strafrechtketen.nl/def/nwvsv#betekening -->
 
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/Betekening">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/def/nwvsv#betekening">
+        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Act"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
         <skos:prefLabel xml:lang="nl">Betekening</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://strafrechtketen.nl/Brief -->
+    <!-- http://strafrechtketen.nl/def/nwvsv#brief -->
 
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/Brief">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/def/nwvsv#brief">
+        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Object"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
         <skos:prefLabel xml:lang="nl">Brief</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://strafrechtketen.nl/Elektronisch_adres -->
+    <!-- http://strafrechtketen.nl/def/nwvsv#burger -->
 
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/Elektronisch_adres">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/def/nwvsv#burger">
+        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Actor"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
+        <skos:prefLabel>Burger</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/def/nwvsv#doorDeWetBepaald -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/def/nwvsv#doorDeWetBepaald">
+        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Norm"/>
+        <skos-lex:refersTo rdf:resource="http://strafrechtketen.nl/def/nwvsv#overdragenDoorBetekening"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
+        <terms:source rdf:resource="http://strafrechtketen.nl/def/nwvsv#wvsv-1.9.5.1"/>
+        <rdfs:comment></rdfs:comment>
+        <skos:prefLabel>In de gevallen waarin de wet dat bepaalt.</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/def/nwvsv#elektronischAdres -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/def/nwvsv#elektronischAdres">
+        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Object"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
+        <skos:broader rdf:resource="http://strafrechtketen.nl/def/nwvsv#adres"/>
         <skos:prefLabel xml:lang="nl">Elektronisch adres</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://strafrechtketen.nl/Elektronische_voorziening -->
+    <!-- http://strafrechtketen.nl/def/nwvsv#elektronischeVoorziening -->
 
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/Elektronische_voorziening">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:broader rdf:resource="http://strafrechtketen.nl/Voorziening"/>
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/def/nwvsv#elektronischeVoorziening">
+        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Object"/>
+        <skos:broader rdf:resource="http://strafrechtketen.nl/def/nwvsv#voorziening"/>
         <skos:inScheme rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
         <skos:topConceptOf rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
         <terms:source rdf:resource="http://strafrechtketen.nl/nwvsv:wvsv-1.1.11"/>
@@ -2649,46 +2720,61 @@
     
 
 
-    <!-- http://strafrechtketen.nl/Elektronische_weg -->
+    <!-- http://strafrechtketen.nl/def/nwvsv#elektronischeWeg -->
 
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/Elektronische_weg">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/def/nwvsv#elektronischeWeg">
+        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Object"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
         <skos:prefLabel xml:lang="nl">Elektronische weg</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://strafrechtketen.nl/Kopie -->
+    <!-- http://strafrechtketen.nl/def/nwvsv#indienen -->
 
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/Kopie">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/def/nwvsv#indienen">
+        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Act"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
+        <skos:prefLabel xml:lang="nl">Indienen</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/def/nwvsv#kopie -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/def/nwvsv#kopie">
+        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Record"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
         <skos:prefLabel xml:lang="nl">Kopie</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://strafrechtketen.nl/Notificatie -->
+    <!-- http://strafrechtketen.nl/def/nwvsv#notificatie -->
 
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/Notificatie">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/def/nwvsv#notificatie">
+        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Record"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
         <skos:prefLabel xml:lang="nl">Notificatie</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://strafrechtketen.nl/Ontsluiten -->
+    <!-- http://strafrechtketen.nl/def/nwvsv#ontsluiten -->
 
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/Ontsluiten">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/def/nwvsv#ontsluiten">
+        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Act"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
         <skos:prefLabel xml:lang="nl">Ontsluiten</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://strafrechtketen.nl/Opgeven -->
+    <!-- http://strafrechtketen.nl/def/nwvsv#opgeven -->
 
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/Opgeven">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/def/nwvsv#opgeven">
+        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Act"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
         <terms:source></terms:source>
         <skos:altLabel xml:lang="nl">Opgeven (van een adres)</skos:altLabel>
         <skos:prefLabel xml:lang="nl">Adresopgave</skos:prefLabel>
@@ -2696,83 +2782,265 @@
     
 
 
-    <!-- http://strafrechtketen.nl/Procesdeelnemer -->
+    <!-- http://strafrechtketen.nl/def/nwvsv#oproeping -->
 
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/Procesdeelnemer">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="nl">Procesdeelnemer</skos:prefLabel>
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/def/nwvsv#oproeping">
+        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Object"/>
+        <skos:broader rdf:resource="http://strafrechtketen.nl/def/nwvsv#bericht"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
+        <skos:definition></skos:definition>
+        <skos:example>[voorbeeld]</skos:example>
+        <skos:prefLabel xml:lang="nl">Oproeping</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://strafrechtketen.nl/Schriftelijke_vorm -->
+    <!-- http://strafrechtketen.nl/def/nwvsv#overdragen -->
 
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/Schriftelijke_vorm">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/def/nwvsv#overdragen">
+        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Act"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
+        <skos:prefLabel>Overdragen</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/def/nwvsv#overdragenDoorBetekening -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/def/nwvsv#overdragenDoorBetekening">
+        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Act"/>
+        <skos-lex:actor rdf:resource="http://strafrechtketen.nl/def/nwvsv#OpenbaarMinisterie"/>
+        <skos-lex:actor rdf:resource="http://strafrechtketen.nl/def/nwvsv#burger"/>
+        <skos-lex:actor rdf:resource="http://strafrechtketen.nl/def/nwvsv#rechter"/>
+        <skos-lex:object rdf:resource="http://strafrechtketen.nl/def/nwvsv#bericht"/>
+        <skos:broader rdf:resource="http://strafrechtketen.nl/def/nwvsv#overdragen"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
+        <terms:source rdf:resource="http://strafrechtketen.nl/def/nwvsv#wvsv-1.9.5.1"/>
+        <skos:altLabel xml:lang="nl">Overdragen door betekening</skos:altLabel>
+        <skos:definition></skos:definition>
+        <skos:prefLabel>Betekening</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/def/nwvsv#overdragenDoorMededeling -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/def/nwvsv#overdragenDoorMededeling">
+        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Act"/>
+        <skos:broader rdf:resource="http://strafrechtketen.nl/def/nwvsv#overdragen"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
+        <skos:altLabel>Overdragen door mededeling</skos:altLabel>
+        <skos:definition></skos:definition>
+        <skos:example></skos:example>
+        <skos:prefLabel xml:lang="nl">Mededeling</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/def/nwvsv#overdragenDoorToezending -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/def/nwvsv#overdragenDoorToezending">
+        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Act"/>
+        <owl:sameAs rdf:resource="http://strafrechtketen.nl/def/nwvsv#toezending"/>
+        <skos:broader rdf:resource="http://strafrechtketen.nl/def/nwvsv#overdragen"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
+        <skos:altLabel>Overdragen door toezending</skos:altLabel>
+        <skos:prefLabel>Toezending</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/def/nwvsv#toezending -->
+
+    <rdf:Description rdf:about="http://strafrechtketen.nl/def/nwvsv#toezending"/>
+    
+
+
+    <!-- http://strafrechtketen.nl/def/nwvsv#overdragenDoorUitreiking -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/def/nwvsv#overdragenDoorUitreiking">
+        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Act"/>
+        <owl:sameAs rdf:resource="http://strafrechtketen.nl/def/nwvsv#uitreiking"/>
+        <skos:broader rdf:resource="http://strafrechtketen.nl/def/nwvsv#overdragen"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
+        <skos:altLabel>Overdragen door uitreiking</skos:altLabel>
+        <skos:altLabel>Uitreiking</skos:altLabel>
+        <skos:prefLabel>Uitreiking</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/def/nwvsv#uitreiking -->
+
+    <rdf:Description rdf:about="http://strafrechtketen.nl/def/nwvsv#uitreiking"/>
+    
+
+
+    <!-- http://strafrechtketen.nl/def/nwvsv#plaatsing -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/def/nwvsv#plaatsing">
+        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Act"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
+        <skos:prefLabel xml:lang="nl">Plaatsing</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/def/nwvsv#rechter -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/def/nwvsv#rechter">
+        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Actor"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/def/nwvsv#schriftelijkeVorm -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/def/nwvsv#schriftelijkeVorm">
+        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Norm"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
         <skos:prefLabel xml:lang="nl">Schriftelijke vorm</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://strafrechtketen.nl/Stuk -->
+    <!-- http://strafrechtketen.nl/def/nwvsv#stuk -->
 
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/Stuk">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/def/nwvsv#stuk">
+        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Object"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
         <skos:prefLabel xml:lang="nl">Stuk</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://strafrechtketen.nl/Toegang -->
+    <!-- http://strafrechtketen.nl/def/nwvsv#tenzijDeWetAndersBepaalt -->
 
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/Toegang">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/def/nwvsv#tenzijDeWetAndersBepaalt">
+        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Norm"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
+        <skos:prefLabel>Tenzij de wet anders bepaalt</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/def/nwvsv#toegang -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/def/nwvsv#toegang">
+        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Norm"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
         <skos:prefLabel xml:lang="nl">Toegang</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://strafrechtketen.nl/Uitreiking -->
+    <!-- http://strafrechtketen.nl/def/nwvsv#toezending -->
 
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/Uitreiking">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/def/nwvsv#toezending">
+        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Act"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
+        <skos:prefLabel xml:lang="nl">Toezending</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/def/nwvsv#uitreiking -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/def/nwvsv#uitreiking">
+        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Act"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
         <skos:prefLabel xml:lang="nl">Uitreiking</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://strafrechtketen.nl/Uitreiking_in_persoon -->
+    <!-- http://strafrechtketen.nl/def/nwvsv#uitreikingInPersoon -->
 
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/Uitreiking_in_persoon">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/def/nwvsv#uitreikingInPersoon">
+        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Act"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
+        <skos:broader rdf:resource="http://strafrechtketen.nl/def/nwvsv#overdragenDoorUitreiking"/>
+        <skos:broader rdf:resource="http://strafrechtketen.nl/def/nwvsv#uitreiking"/>
         <skos:prefLabel xml:lang="nl">Uitreiking in persoon</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://strafrechtketen.nl/Uniek_nummer -->
+    <!-- http://strafrechtketen.nl/def/nwvsv#uniekNummer -->
 
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/Uniek_nummer">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/def/nwvsv#uniekNummer">
+        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Norm"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
         <skos:prefLabel xml:lang="nl">Uniek nummer</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://strafrechtketen.nl/Vastlegging -->
+    <!-- http://strafrechtketen.nl/def/nwvsv#vastlegging -->
 
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/Vastlegging">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/def/nwvsv#vastlegging">
+        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Act"/>
         <skos:prefLabel xml:lang="nl">Vastlegging</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://strafrechtketen.nl/Voorziening -->
+    <!-- http://strafrechtketen.nl/def/nwvsv#voorziening -->
 
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/Voorziening">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/def/nwvsv#voorziening">
+        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Object"/>
+        <skos:inScheme rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
         <skos:prefLabel xml:lang="nl">Voorziening</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/doc/nwvsv#wetboek-van-strafvordering -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/doc/nwvsv#wetboek-van-strafvordering">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <rdfs:comment>Het Wetboek van Strafvordering is ...</rdfs:comment>
+        <foaf:name>Nieuwe Wetboek van Strafvordering</foaf:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/doc/nwvsv#wvsv-1.1.11 -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/doc/nwvsv#wvsv-1.1.11">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <rdfs:comment>Onder elektronische voorziening wordt verstaan de bij of krachtens
+algemene maatregel van bestuur aangewezen voorziening ten behoeve
+van de overdracht van berichten en het indienen van stukken langs
+elektronische weg.</rdfs:comment>
+        <foaf:name>NWvSv 1.1.11 Elektronische voorziening</foaf:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/doc/nwvsv#wvsv-1.9.5.1 -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/doc/nwvsv#wvsv-1.9.5.1">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <foaf:name>Overdragen berichten van OM of rechter</foaf:name>
+        <rdfs:comment>Berichten van het openbaar ministerie of een rechter worden aan een
+burger overgedragen door betekening in de gevallen waarin de wet dat
+bepaalt. Oproepingen worden betekend tenzij de wet anders bepaalt.</rdfs:comment>
+        <foaf:name>WvSv 1.9.5.1 Overdragen door betekening</foaf:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/doc/nwvsv#wvsv-1.9.5.2 -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/doc/nwvsv#wvsv-1.9.5.2">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <foaf:name>Andere gevallen van overdragen van berichten</foaf:name>
+        <rdfs:comment>In andere gevallen wordt het bericht aan de burger overgedragen
+door het aan de persoon voor wie het bestemd is uit te reiken of toe te
+zenden, tenzij de wet bepaalt dat het wordt meegedeeld.</rdfs:comment>
+        <foaf:name>NWvSv 1.9.5.2 Overdragen door uitreiking of toezending</foaf:name>
     </owl:NamedIndividual>
     
 
@@ -2781,224 +3049,7 @@
 
     <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv#nwvsv-vocab">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://strafrechtketen.nl/nwvsv:OpenbaarMinisterie -->
-
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv:OpenbaarMinisterie">
-        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Actor"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://strafrechtketen.nl/nwvsv:aanbieden -->
-
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv:aanbieden">
-        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Act"/>
-        <skos:inScheme rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
-        <skos:topConceptOf rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
-        <terms:source rdf:resource="http://strafrechtketen.nl/nwvsv:wetboek-van-strafvordering"/>
-        <skos:definition>[definitie]</skos:definition>
-        <skos:example></skos:example>
-        <skos:prefLabel xml:lang="nl">Aanbieden</skos:prefLabel>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://strafrechtketen.nl/nwvsv:bericht -->
-
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv:bericht">
-        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Object"/>
-        <skos:prefLabel xml:lang="nl">Bericht</skos:prefLabel>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://strafrechtketen.nl/nwvsv:burger -->
-
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv:burger">
-        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Actor"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://strafrechtketen.nl/nwvsv:doorDeWetBepaald -->
-
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv:doorDeWetBepaald">
-        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Norm"/>
-        <skos-lex:refersTo rdf:resource="http://strafrechtketen.nl/nwvsv:overdragenDoorBetekening"/>
-        <terms:source rdf:resource="http://strafrechtketen.nl/nwvsv:wvsv-1.9.5.1"/>
-        <rdfs:comment></rdfs:comment>
-        <skos:prefLabel>In de gevallen waarin de wet dat bepaalt.</skos:prefLabel>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://strafrechtketen.nl/nwvsv:indienen -->
-
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv:indienen">
-        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Act"/>
-        <skos:prefLabel xml:lang="nl">Indienen</skos:prefLabel>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://strafrechtketen.nl/nwvsv:oproeping -->
-
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv:oproeping">
-        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Object"/>
-        <skos:broader rdf:resource="http://strafrechtketen.nl/nwvsv:bericht"/>
-        <skos:definition></skos:definition>
-        <skos:example>[voorbeeld]</skos:example>
-        <skos:prefLabel xml:lang="nl">Oproeping</skos:prefLabel>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://strafrechtketen.nl/nwvsv:overdragen -->
-
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv:overdragen">
-        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Act"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://strafrechtketen.nl/nwvsv:overdragenDoorBetekening -->
-
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv:overdragenDoorBetekening">
-        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Act"/>
-        <skos-lex:actor rdf:resource="http://strafrechtketen.nl/nwvsv:OpenbaarMinisterie"/>
-        <skos-lex:actor rdf:resource="http://strafrechtketen.nl/nwvsv:burger"/>
-        <skos-lex:actor rdf:resource="http://strafrechtketen.nl/nwvsv:rechter"/>
-        <skos-lex:object rdf:resource="http://strafrechtketen.nl/nwvsv:bericht"/>
-        <skos:broader rdf:resource="http://strafrechtketen.nl/nwvsv:overdragen"/>
-        <terms:source rdf:resource="http://strafrechtketen.nl/nwvsv:wvsv-1.9.5.1"/>
-        <skos:altLabel xml:lang="nl">Betekening</skos:altLabel>
-        <skos:definition></skos:definition>
-        <skos:prefLabel xml:lang="nl">Overdragen door betekening</skos:prefLabel>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://strafrechtketen.nl/nwvsv:overdragenDoorMededeling -->
-
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv:overdragenDoorMededeling">
-        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Act"/>
-        <skos:altLabel>Overdragen door mededeling</skos:altLabel>
-        <skos:broader rdf:resource="http://strafrechtketen.nl/nwvsv:overdragen"/>
-        <skos:definition></skos:definition>
-        <skos:example></skos:example>
-        <skos:inScheme rdf:resource="http://strafrechtketen.nl/nwvsv#nwvsv-vocab"/>
-        <skos:prefLabel xml:lang="nl">Mededeling</skos:prefLabel>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://strafrechtketen.nl/nwvsv:overdragenDoorToezending -->
-
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv:overdragenDoorToezending">
-        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Act"/>
-        <owl:sameAs rdf:resource="http://strafrechtketen.nl/nwvsv:toezending"/>
-        <skos:broader rdf:resource="http://strafrechtketen.nl/nwvsv:overdragen"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://strafrechtketen.nl/nwvsv:toezending -->
-
-    <rdf:Description rdf:about="http://strafrechtketen.nl/nwvsv:toezending"/>
-    
-
-
-    <!-- http://strafrechtketen.nl/nwvsv:overdragenDoorUitreiking -->
-
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv:overdragenDoorUitreiking">
-        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Act"/>
-        <skos:broader rdf:resource="http://strafrechtketen.nl/nwvsv:overdragen"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://strafrechtketen.nl/nwvsv:plaatsing -->
-
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv:plaatsing">
-        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Act"/>
-        <skos:prefLabel xml:lang="nl">Plaatsing</skos:prefLabel>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://strafrechtketen.nl/nwvsv:rechter -->
-
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv:rechter">
-        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Actor"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://strafrechtketen.nl/nwvsv:tenzijDeWetAndersBepaalt -->
-
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv:tenzijDeWetAndersBepaalt">
-        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Norm"/>
-        <skos:prefLabel>Tenzij de wet anders bepaalt</skos:prefLabel>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://strafrechtketen.nl/nwvsv:toezending -->
-
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv:toezending">
-        <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Act"/>
-        <skos:prefLabel xml:lang="nl">Toezending</skos:prefLabel>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://strafrechtketen.nl/nwvsv:wetboek-van-strafvordering -->
-
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv:wetboek-van-strafvordering">
-        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
-        <rdfs:comment>Het Wetboek van Strafvordering is ...</rdfs:comment>
-        <rdfs:label>Wetboek van Strafvordering</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://strafrechtketen.nl/nwvsv:wvsv-1.1.11 -->
-
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv:wvsv-1.1.11">
-        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
-        <rdfs:comment>Onder elektronische voorziening wordt verstaan de bij of krachtens
-algemene maatregel van bestuur aangewezen voorziening ten behoeve
-van de overdracht van berichten en het indienen van stukken langs
-elektronische weg.</rdfs:comment>
-        <rdfs:label>Elektronische voorziening</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://strafrechtketen.nl/nwvsv:wvsv-1.9.5.1 -->
-
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv:wvsv-1.9.5.1">
-        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
-        <foaf:name>Overdragen berichten van OM of rechter</foaf:name>
-        <rdfs:comment>Berichten van het openbaar ministerie of een rechter worden aan een
-burger overgedragen door betekening in de gevallen waarin de wet dat
-bepaalt. Oproepingen worden betekend tenzij de wet anders bepaalt.</rdfs:comment>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://strafrechtketen.nl/nwvsv:wvsv-1.9.5.2 -->
-
-    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv:wvsv-1.9.5.2">
-        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
-        <foaf:name>Andere gevallen van overdragen van berichten</foaf:name>
-        <rdfs:comment>In andere gevallen wordt het bericht aan de burger overgedragen
-door het aan de persoon voor wie het bestemd is uit te reiken of toe te
-zenden, tenzij de wet bepaalt dat het wordt meegedeeld.</rdfs:comment>
+        <skos:prefLabel>Nieuwe Wetboek van Strafvordering Vocabulaire</skos:prefLabel>
     </owl:NamedIndividual>
     
 
