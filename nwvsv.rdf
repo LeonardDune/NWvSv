@@ -24,7 +24,6 @@
     <owl:Ontology rdf:about="http://strafrechtketen.nl/nwvsv/">
         <owl:versionIRI rdf:resource="urn:absolute:0.0.1"/>
         <owl:imports rdf:resource="http://bp4mc2.org/def/skos-lex#"/>
-        <owl:imports rdf:resource="http://purl.org/iso25964/skos-thes"/>
         <owl:imports rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
         <owl:imports rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
         <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
@@ -3024,9 +3023,9 @@ c. door een daartoe bij of krachtens algemene maatregel van bestuur aangewezen d
 
     <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv/def/nwvsv#indienenStukDoorAdvocatenBijOM_PG">
         <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Norm"/>
+        <foaf:name>Indienen stukken door advocaten bij OM of PG</foaf:name>
         <terms:source rdf:resource="http://strafrechtketen.nl/nwvsv/:/doc/nwvsv#wvsv-1.9.2.2"/>
         <terms:source>Advocaten dienen stukken over een zaak bij het openbaar ministerie of de procureur-generaal bij de Hoge Raad langs elektronische weg in, tenzij de officier van justitie, de advocaat-generaal of de procureurgeneraal bij de Hoge Raad anders bepaalt.</terms:source>
-        <foaf:name>Indienen stukken door advocaten bij OM of PG</foaf:name>
     </owl:NamedIndividual>
     
 
@@ -3035,9 +3034,9 @@ c. door een daartoe bij of krachtens algemene maatregel van bestuur aangewezen d
 
     <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv/def/nwvsv#indienenStukDoorOM_PG_Advocaat_bijRechtbank">
         <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Norm"/>
+        <foaf:name>Indienen stukken van OM, PG en advocaten bij rechtbank</foaf:name>
         <terms:source rdf:resource="http://strafrechtketen.nl/nwvsv/:doc/nwvsv#wvsv-1.9.2.1"/>
         <rdfs:comment>Het openbaar ministerie, de procureur-generaal bij de Hoge Raad en advocaten dienen stukken over een zaak bij de rechtbank, het gerechtshof of de Hoge Raad langs elektronische weg in, tenzij de rechter anders bepaalt.</rdfs:comment>
-        <foaf:name>Indienen stukken van OM, PG en advocaten bij rechtbank</foaf:name>
     </owl:NamedIndividual>
     
 
@@ -3135,9 +3134,9 @@ Maar de semantische betekenis van &apos;oproeping&apos; is toch niet louter het 
 
     <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv/def/nwvsv#overdragenBerichtenAanBurgerDoorBetekening">
         <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Norm"/>
+        <foaf:name>Overdragen berichten van OM of rechter aan burger door betekening</foaf:name>
         <terms:source rdf:resource="http://strafrechtketen.nl/nwvsv/doc/nwvsv#wvsv-1.9.5.1"/>
         <rdfs:comment>Berichten van het openbaar ministerie of een rechter worden aan een burger overgedragen door betekening in de gevallen waarin de wet dat bepaalt. Oproepingen worden betekend tenzij de wet anders bepaalt.</rdfs:comment>
-        <foaf:name>Overdragen berichten van OM of rechter aan burger door betekening</foaf:name>
     </owl:NamedIndividual>
     
 
@@ -3146,9 +3145,9 @@ Maar de semantische betekenis van &apos;oproeping&apos; is toch niet louter het 
 
     <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv/def/nwvsv#overdragenBerichtenTussenRechters_OM_PG_advocaten">
         <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Norm"/>
+        <foaf:name>Elektronisch overdragen van vastgelegde berichten over een zaak tussen rechters, openbaar ministerie, procureur-generaal bij HR en advocaten</foaf:name>
         <terms:source rdf:resource="http://strafrechtketen.nl/nwvsv/doc/nwvsv#wvsv-1.9.3.1"/>
         <rdfs:comment>Vastgelegde berichten over een zaak worden tussen rechters, het openbaar ministerie, de procureur-generaal bij de Hoge Raad en advocaten langs elektronische weg overgedragen, tenzij dit wetboek of de rechter anders bepaalt.</rdfs:comment>
-        <foaf:name>Elektronisch overdragen van vastgelegde berichten over een zaak tussen rechters, openbaar ministerie, procureur-generaal bij HR en advocaten</foaf:name>
     </owl:NamedIndividual>
     
 
@@ -3157,9 +3156,9 @@ Maar de semantische betekenis van &apos;oproeping&apos; is toch niet louter het 
 
     <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv/def/nwvsv#overdragenBerichtenVanOpsporingsdiensten">
         <rdf:type rdf:resource="http://bp4mc2.org/def/skos-lex#Norm"/>
+        <foaf:name>Elektronisch overdragen vastgelegde berichten van opsporingsdiensten en andere bestuursorganen</foaf:name>
         <terms:source rdf:resource="http://strafrechtketen.nl/nwvsv/doc/nwvsv#wvsv-1.9.3.2"/>
         <rdfs:comment>Vastgelegde berichten van opsporingsdiensten en andere bestuursorganen en rechtspersonen met taken in de strafrechtspleging worden in bij algemene maatregel van bestuur aangewezen gevallen langs elektronische weg overgedragen.</rdfs:comment>
-        <foaf:name>Elektronisch overdragen vastgelegde berichten van opsporingsdiensten en andere bestuursorganen</foaf:name>
     </owl:NamedIndividual>
     
 
@@ -3382,10 +3381,31 @@ Maar de semantische betekenis van &apos;oproeping&apos; is toch niet louter het 
     <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv/doc/nwvsv#wvsv-1.1.11">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
         <foaf:name>NWvSv 1.1.11 Elektronische voorziening</foaf:name>
-        <rdfs:comment>Onder elektronische voorziening wordt verstaan de bij of krachtens
-algemene maatregel van bestuur aangewezen voorziening ten behoeve
-van de overdracht van berichten en het indienen van stukken langs
-elektronische weg.</rdfs:comment>
+        <terms:references rdf:resource="http://strafrechtketen.nl/nwvsv/def/nwvsv#bericht"/>
+        <terms:references rdf:resource="http://strafrechtketen.nl/nwvsv/def/nwvsv#elektronischeVoorziening"/>
+        <terms:references rdf:resource="http://strafrechtketen.nl/nwvsv/def/nwvsv#elektronischeWeg"/>
+        <terms:references rdf:resource="http://strafrechtketen.nl/nwvsv/def/nwvsv#indienen"/>
+        <terms:references rdf:resource="http://strafrechtketen.nl/nwvsv/def/nwvsv#overdragen"/>
+        <terms:references rdf:resource="http://strafrechtketen.nl/nwvsv/def/nwvsv#stuk"/>
+        <rdfs:comment>Onder elektronische voorziening wordt verstaan de bij of krachtens algemene maatregel van bestuur aangewezen voorziening ten behoeve van de overdracht van berichten en het indienen van stukken langs elektronische weg.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/nwvsv/doc/nwvsv#wvsv-1.1.12.1 -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv/doc/nwvsv#wvsv-1.1.12.1">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <rdfs:comment>Onder elektronische handtekening wordt verstaan een handtekening die bestaat uit elektronische gegevens die gehecht zijn aan of logisch verbonden zijn met andere elektronische gegevens die worden gebruikt door de ondertekenaar om te ondertekenen.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/nwvsv/doc/nwvsv#wvsv-1.1.12.2 -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv/doc/nwvsv#wvsv-1.1.12.2">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <rdfs:comment>Onder getekend of ondertekend respectievelijk waarmerken of gewaarmerkt worden, wordt begrepen een ondertekening respectievelijk waarmerking met een elektronische handtekening die voldoet aan de bij of krachtens algemene maatregel van bestuur te stellen eisen ten aanzien van in elk geval het betrouwbaarheidsniveau van authenticatie.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -3409,6 +3429,7 @@ elektronische weg.</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv/doc/nwvsv#wvsv-1.9.3.1">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <foaf:name>NWvSv 1.9.3.1 - Elektronisch overdragen vastgelegde berichten tussen rechters, OM, PG en advocaten</foaf:name>
         <terms:references rdf:resource="http://strafrechtketen.nl/nwvsv/:/def/nwvsv#zaak"/>
         <terms:references rdf:resource="http://strafrechtketen.nl/nwvsv/def/nwvsv#advocaat"/>
         <terms:references rdf:resource="http://strafrechtketen.nl/nwvsv/def/nwvsv#bericht"/>
@@ -3419,7 +3440,6 @@ elektronische weg.</rdfs:comment>
         <terms:references rdf:resource="http://strafrechtketen.nl/nwvsv/def/nwvsv#rechter"/>
         <terms:references rdf:resource="http://strafrechtketen.nl/nwvsv/def/nwvsv#vastgelegdBericht"/>
         <rdfs:comment>Vastgelegde berichten over een zaak worden tussen rechters, het openbaar ministerie, de procureur-generaal bij de Hoge Raad en advocaten langs elektronische weg overgedragen, tenzij dit wetboek of de rechter anders bepaalt.</rdfs:comment>
-        <foaf:name>NWvSv 1.9.3.1 - Elektronisch overdragen vastgelegde berichten tussen rechters, OM, PG en advocaten</foaf:name>
     </owl:NamedIndividual>
     
 
@@ -3440,13 +3460,13 @@ elektronische weg.</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv/doc/nwvsv#wvsv-1.9.4.1">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <foaf:name>NWvSv 1.9.4 - Burger kan vastgelegde berichten elektronisch overdragen</foaf:name>
         <terms:references rdf:resource="http://strafrechtketen.nl/nwvsv/:/def/nwvsv#zaak"/>
         <terms:references rdf:resource="http://strafrechtketen.nl/nwvsv/def/nwvsv#burger"/>
         <terms:references rdf:resource="http://strafrechtketen.nl/nwvsv/def/nwvsv#elektronischeWeg"/>
         <terms:references rdf:resource="http://strafrechtketen.nl/nwvsv/def/nwvsv#overdragen"/>
         <terms:references rdf:resource="http://strafrechtketen.nl/nwvsv/def/nwvsv#vastgelegdBericht"/>
         <rdfs:comment>De burger kan vastgelegde berichten over een zaak langs elektronische weg overdragen.</rdfs:comment>
-        <foaf:name>NWvSv 1.9.4 - Burger kan vastgelegde berichten elektronisch overdragen</foaf:name>
     </owl:NamedIndividual>
     
 
@@ -3455,13 +3475,13 @@ elektronische weg.</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv/doc/nwvsv#wvsv-1.9.4.2">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <foaf:name>NWvSv 1.9.4.2 - Burger die wordt bijgestaan door advocaat moet vastgelegde berichten elektronisch overdragen</foaf:name>
         <terms:references rdf:resource="http://strafrechtketen.nl/nwvsv/def/nwvsv#advocaat"/>
         <terms:references rdf:resource="http://strafrechtketen.nl/nwvsv/def/nwvsv#burger"/>
         <terms:references rdf:resource="http://strafrechtketen.nl/nwvsv/def/nwvsv#elektronischeWeg"/>
         <terms:references rdf:resource="http://strafrechtketen.nl/nwvsv/def/nwvsv#overdragen"/>
         <terms:references rdf:resource="http://strafrechtketen.nl/nwvsv/def/nwvsv#vastgelegdBericht"/>
         <rdfs:comment>Vastgelegde berichten kunnen, als de burger wordt bijgestaan door een advocaat, uitsluitend langs elektronische weg worden overgedragen.</rdfs:comment>
-        <foaf:name>NWvSv 1.9.4.2 - Burger die wordt bijgestaan door advocaat moet vastgelegde berichten elektronisch overdragen</foaf:name>
     </owl:NamedIndividual>
     
 
@@ -3470,13 +3490,13 @@ elektronische weg.</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv/doc/nwvsv#wvsv-1.9.4.3">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <foaf:name>NWvSv 1.9.4.3 - Schriftelijk overdragen van berichten van een burger aan OM of rechter</foaf:name>
         <terms:references rdf:resource="http://strafrechtketen.nl/nwvsv/:/def/nwvsv#overdragenInSchriftelijkeVorm"/>
         <terms:references rdf:resource="http://strafrechtketen.nl/nwvsv/def/nwvsv#bericht"/>
         <terms:references rdf:resource="http://strafrechtketen.nl/nwvsv/def/nwvsv#burger"/>
         <terms:references rdf:resource="http://strafrechtketen.nl/nwvsv/def/nwvsv#openbaarMinisterie"/>
         <terms:references rdf:resource="http://strafrechtketen.nl/nwvsv/def/nwvsv#rechter"/>
         <rdfs:comment>Berichten van een burger aan het openbaar ministerie of een rechter worden, behoudens tijdens het onderzoek op de zitting, schriftelijk overgedragen, tenzij de wet anders bepaalt.</rdfs:comment>
-        <foaf:name>NWvSv 1.9.4.3 - Schriftelijk overdragen van berichten van een burger aan OM of rechter</foaf:name>
     </owl:NamedIndividual>
     
 
@@ -3544,6 +3564,78 @@ c. bij het instellen van een gewoon rechtsmiddel in de zaak een adres opgeven of
     <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv/doc/nwvsv#wvsv-1.9.6.5">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
         <rdfs:comment>Een opgegeven adres, anders dan een elektronisch adres, kan worden ingetrokken door een ondertekend en gedagtekend bericht aan de officier van justitie.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/nwvsv/doc/nwvsv#wvsv-1.9.7.1 -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv/doc/nwvsv#wvsv-1.9.7.1">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <rdfs:comment>Het bepaalde in dit hoofdstuk staat er niet aan in de weg dat op de zitting stukken worden overgelegd, in de gevallen waarin de wet dat toestaat.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/nwvsv/doc/nwvsv#wvsv-1.9.7.2 -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv/doc/nwvsv#wvsv-1.9.7.2">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <rdfs:comment>Het openbaar ministerie, de procureur-generaal bij de Hoge Raad en de rechter kunnen ook berichten die zijn overgedragen op andere wijze dan dit wetboek toestaat bij hun beoordeling en beslissing betrekken.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/nwvsv/doc/nwvsv#wvsv-1.9.8.1 -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv/doc/nwvsv#wvsv-1.9.8.1">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <rdfs:comment>Het openbaar ministerie is belast met de uitvoering van rechterlijke bevelen tot kennisgeving en, waar dit wetboek tot het in kennis stellen of ter kennis brengen van een bericht verplicht, met de uitvoering daarvan, tenzij de wet anders bepaalt.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/nwvsv/doc/nwvsv#wvsv-1.9.8.2 -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv/doc/nwvsv#wvsv-1.9.8.2">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <rdfs:comment>Het openbaar ministerie kan een ieder, behalve de verdachte, bevelen inlichtingen te verstrekken die redelijkerwijs noodzakelijk zijn voor de overdracht van een bericht. Op het bevel zijn Boek 2, Titel 1.5, en de artikelen 2.7.44 en 2.7.58 van overeenkomstige toepassing.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/nwvsv/doc/nwvsv#wvsv-1.9.9.1 -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv/doc/nwvsv#wvsv-1.9.9.1">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <rdfs:comment>Bij algemene maatregel van bestuur worden regels gesteld over de overdracht van berichten en het indienen van stukken langs elektronische weg.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/nwvsv/doc/nwvsv#wvsv-1.9.9.2 -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv/doc/nwvsv#wvsv-1.9.9.2">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <rdfs:comment>Deze regels kunnen inhouden dat bij een verplichting om langs elektronische weg berichten over te dragen en stukken in te dienen van de elektronische voorziening gebruik wordt gemaakt.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/nwvsv/doc/nwvsv#wvsv-1.9.9.3 -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv/doc/nwvsv#wvsv-1.9.9.3">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <rdfs:comment>Deze regels kunnen uitzonderingen inhouden op een verplichting tot het overdragen van berichten of het indienen van stukken langs elektronische weg.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://strafrechtketen.nl/nwvsv/doc/nwvsv#wvsv-1.9.9.4 -->
+
+    <owl:NamedIndividual rdf:about="http://strafrechtketen.nl/nwvsv/doc/nwvsv#wvsv-1.9.9.4">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <rdfs:comment>Bij algemene maatregel van bestuur worden regels gesteld over de vereisten voor authenticatie en integriteit van de overdracht van berichten en het indienen van stukken met behulp van de elektronische voorziening alsmede voor de wijze waarop notificatie plaatsvindt. Van overgedragen berichten en ingediende stukken kan de integriteit worden nagegaan doordat iedere wijziging kan worden vastgesteld.</rdfs:comment>
     </owl:NamedIndividual>
     
 
