@@ -6,10 +6,10 @@
     <uri id="Imports Wizard Entry" name="http://www.w3.org/2004/02/skos/core" uri="http://www.w3.org/2004/02/skos/core#"/>
     <uri id="Imports Wizard Entry" name="http://bp4mc2.org/def/skos-lex#" uri="https://bp4mc2.org/def/skos-lex.ttl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1709137346161" name="http://strafrechtketen.nl/nwvsv/" uri="nwvsv.rdf"/>
-        <uri id="Automatically generated entry, Timestamp=1709137346161" name="http://www.w3.org/ns/adms" uri="nwvsv%202.rdf"/>
-        <uri id="Automatically generated entry, Timestamp=1709137346161" name="http://www.w3.org/ns/dcat" uri="dcat.rdf"/>
-        <uri id="Automatically generated entry, Timestamp=1709137346161" name="http://www.w3.org/ns/prov" uri="prov-o.rdf"/>
-        <uri id="Automatically generated entry, Timestamp=1709137346161" name="http://www.w3.org/ns/shacl" uri="shacl.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1709553428658" name="http://strafrechtketen.nl/nwvsv/" uri="nwvsv.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1709553428658" name="http://www.w3.org/ns/adms" uri="nwvsv%202.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1709553428658" name="http://www.w3.org/ns/dcat" uri="dcat.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1709553428658" name="http://www.w3.org/ns/prov" uri="prov-o.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1709553428658" name="http://www.w3.org/ns/shacl" uri="shacl.rdf"/>
     </group>
 </catalog>
