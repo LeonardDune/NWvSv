@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://strafrechtketen.nl/nwvsv/"
-     xml:base="http://strafrechtketen.nl/nwvsv/"
+<rdf:RDF xmlns="https://purl.org/strafrechtketen/nwvs"
+     xml:base="https://purl.org/strafrechtketen/nwvs"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
